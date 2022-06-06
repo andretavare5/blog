@@ -1,7 +1,7 @@
 ---
 title: "Hunting PrivateLoader: Pay-Per-Install Service"
 date: 2022-06-06
-slug: "hunting-privateLoader-pay-per-pnstall-service"
+slug: "hunting-privateLoader-pay-per-install-service"
 description: "Detection and IOCs extraction"
 keywords: ["privateloader", "malware", "reversing", "yara", "windows", "x86"]
 draft: false
@@ -33,6 +33,7 @@ rule privateloader : downloader
     author = "@andretavare5"
     org = "@BitSight"
     date = "2022-06-06"
+    reference = "https://tavares.re/blog/2022/06/06/hunting-privateLoader-pay-per-install-service"
     md5 = "8f70a0f45532261cb4df2800b141551d"
       
   strings:
