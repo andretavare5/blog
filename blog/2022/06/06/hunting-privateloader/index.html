@@ -17,7 +17,7 @@
     and all of them
     and #code &gt; 100 // str chunk deobfuscation occurrences
 }
-</code></pre><p>After running this rule on VirusTotal retro hunting, I got over 1.5k samples on a 1 year timeframe. By manually analyzing some of them matches, I couldn&rsquo;t find any false positives. As a first attempt of hunting and detecting PrivateLoader, this rule seems to yield good results.</p><p>Now, to faster analyze the malware and better understand its behavior, we should build a string deobfuscator to help us on our reversing efforts and better document the code. With the help of <a href=https://www.capstone-engine.org/ target=_blank rel="noreferrer noopener">Capstone</a> disassembly framework, and some trial and error, here&rsquo;s the script:</p><pre><code class=language-python>import pefile
+</code></pre><p>After running this rule on VirusTotal retro hunting, I got over 1.5k samples on a 1 year timeframe. By manually analyzing some of the matches, I couldn&rsquo;t find any false positives. As a first attempt of hunting and detecting PrivateLoader, this rule seems to yield good results.</p><p>Now, to faster analyze the malware and better understand its behavior, we should build a string deobfuscator to help us on our reversing efforts and better document the code. With the help of <a href=https://www.capstone-engine.org/ target=_blank rel="noreferrer noopener">Capstone</a> disassembly framework, and some trial and error, here&rsquo;s the script:</p><pre><code class=language-python>import pefile
 from capstone import *
 
 def search(instructions, offset):
