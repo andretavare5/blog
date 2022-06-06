@@ -47,7 +47,7 @@ rule privateloader : downloader
 }
 ```
 
-After running this rule on VirusTotal retro hunting, I got over 1.5k samples on a 1 year timeframe. By manually analyzing some of them matches, I couldn't find any false positives. As a first attempt of hunting and detecting PrivateLoader, this rule seems to yield good results.
+After running this rule on VirusTotal retro hunting, I got over 1.5k samples on a 1 year timeframe. By manually analyzing some of the matches, I couldn't find any false positives. As a first attempt of hunting and detecting PrivateLoader, this rule seems to yield good results.
 
 Now, to faster analyze the malware and better understand its behavior, we should build a string deobfuscator to help us on our reversing efforts and better document the code. With the help of [Capstone](https://www.capstone-engine.org/) disassembly framework, and some trial and error, here's the script:
 
