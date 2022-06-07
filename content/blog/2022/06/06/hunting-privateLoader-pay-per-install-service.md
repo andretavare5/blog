@@ -8,7 +8,6 @@ draft: false
 tags: ["privateloader", "malware", "reversing", "yara", "hunting", "windows", "x86", "capstone", "botnet"]
 math: false
 toc: false
-featured_image: /blog/2022/06/06/stack-xor-str.png
 ---
 <br />
 {{< figure src="/blog/2022/06/06/andreas-brun-f1SLpsPGODo-unsplash.jpg" alt="Cat hunting" link="https://unsplash.com/photos/f1SLpsPGODo" >}}
