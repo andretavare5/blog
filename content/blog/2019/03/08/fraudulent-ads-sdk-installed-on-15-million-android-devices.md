@@ -12,7 +12,7 @@ toc: false
 
 Published at: https://www.bitsight.com/blog/fraudulent-android-advertising-sdk-installed-in-over-15-million-devices
 
-ArrKii being advertising:
+ArrKii being advertised:
 
 <br />
 {{< figure src="/blog/2019/03/08/arrkii-ad.png" link="https://forums.makingmoneywithandroid.com/t/making-more-ca-h-with-your-android-apps-with-arrkii/19647" >}}
