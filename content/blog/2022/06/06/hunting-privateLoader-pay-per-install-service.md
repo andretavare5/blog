@@ -26,27 +26,8 @@ After XOR the encrypted string with the key, we get `kernel32.dll`.
 
 This uncommon string deobfuscation technique can be leveraged to build a [Yara](https://github.com/VirusTotal/yara) rule for detection and hunting purposes. To reduce the number of false positives and increase the rule performance, we can add a plaintext unicode string [used on the C2 communication](https://www.zscaler.com/blogs/security-research/peeking-privateloader) and a few minor conditions. Here's the rule: 
 
-```yara
-rule privateloader : downloader 
-{
-  meta:
-    author = "@andretavare5"
-    org = "@BitSight"
-    date = "2022-06-06"
-    reference = "https://tavares.re/blog/2022/06/06/hunting-privateloader-pay-per-install-service"
-    md5 = "8f70a0f45532261cb4df2800b141551d"
-      
-  strings:
-    $code = { 66 0f ef (4?|8?) } // pxor xmm1 
-    $str = "Content-Type: application/x-www-form-urlencoded\r\n" wide
-                              
-  condition:
-    uint16(0) == 0x5A4D // MZ signature at offset 0
-    and filesize < 2MB
-    and all of them
-    and #code > 100 // str chunk deobfuscation occurrences
-}
-```
+<br />
+{{< gist andretavare5 9d8eb659946ff509d9987c9be4031bb6 >}}
 
 After running this rule on VirusTotal retro hunting, I got over 1.5k samples on a 1 year timeframe. By manually analyzing some of the matches, I couldn't find any false positives. As a first attempt of hunting and detecting PrivateLoader, this rule seems to yield good results.
 
