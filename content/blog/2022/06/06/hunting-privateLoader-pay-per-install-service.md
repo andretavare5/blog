@@ -8,7 +8,10 @@ draft: false
 tags: ["privateloader", "malware", "reversing", "yara", "hunting", "windows", "x86", "capstone", "botnet"]
 math: false
 toc: false
+featured_image: /blog/2022/06/06/stack-xor-str.png
 ---
+<br />
+{{< figure src="/blog/2022/06/06/andreas-brun-f1SLpsPGODo-unsplash.jpg" alt="Cat hunting" link="https://unsplash.com/photos/f1SLpsPGODo" >}}
 
 PrivateLoader is a downloader, [first seen on early 2021](https://intel471.com/blog/privateloader-malware). It's part of a pay-per-install (PPI) malware distribution service available on underground forums and so it's used by multiple threat actors to distribute ransomware, information stealers, banking trojans, downloaders, and other commodity malware on windows machines. The malware payloads are selectively delivered to victims based on certain criteria such as location, financial activity, environment and specific software installed. It's delivered through websites that claim to provide cracked software.
 
