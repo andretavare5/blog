@@ -22,7 +22,7 @@
           {{ template "_internal/disqus.html" . }}
           <footer class="post__footer">
             {{ partial "social-icons.html" .}}
-            <p>{{ replace .Site.Copyright "{year}" now.Year }}</p>
+            <p>{{ replace .Site.Copyright "{year}" now.Year }} <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/jakewies/hugo-theme-codex">Codex</a> </p>
           </footer>
           </div>
       </div>

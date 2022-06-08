@@ -5,7 +5,7 @@ theme = "hugo-theme-codex"
 title = "André Tavares"
 languageCode = "en-us"
 baseURL = "https://tavares.re/"
-copyright = "© {year}"
+copyright = "© {year} André Tavares. Built with "
 
 # Add your Disqus shortname here.
 # disqusShortname = ""
