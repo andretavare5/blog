@@ -9,7 +9,7 @@
     
     <h1>{{ .Params.heading }}<span class="fancy">.</span></h1>
     {{ if isset .Params "handle" }}
-    <span class="handle">@{{ .Params.handle }}</span>
+      <a href={{ .Site.Params.twitter }}><span class="handle">@{{ .Params.handle }}</span></a>
     {{ end }}
     <h2>
       {{ .Params.subheading }}
