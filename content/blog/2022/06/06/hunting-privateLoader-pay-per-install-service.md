@@ -16,7 +16,7 @@ PrivateLoader is a downloader, [first seen on early 2021](https://intel471.com/b
 
 Let's have a look at the malware and try to find a way to detect and hunt it.
 
-## Stack Encrypted Strings
+## Encrypted Stack Strings
 
 Here's a [sample](https://tria.ge/220430-z8fbmaagb9) analyzed by [Zscaler](https://www.zscaler.com/blogs/security-research/peeking-privateloader) on April 2022: 
 
