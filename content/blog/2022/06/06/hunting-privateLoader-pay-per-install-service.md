@@ -3,9 +3,9 @@ title: "Hunting PrivateLoader: Pay-Per-Install Service"
 date: 2022-06-06
 slug: "hunting-privateloader-pay-per-install-service"
 description: "Detection and IOCs extraction"
-keywords: ["privateloader", "malware", "reversing", "yara", "hunting", "windows", "x86", "capstone", "botnet"]
+keywords: ["privateloader", "malware", "reversing", "yara", "hunting", "windows", "x86", "botnet"]
 draft: false
-tags: ["privateloader", "malware", "reversing", "yara", "hunting", "windows", "x86", "capstone", "botnet"]
+tags: ["privateloader", "malware", "reversing", "yara", "hunting", "windows", "x86", "botnet"]
 math: false
 toc: false
 ---
