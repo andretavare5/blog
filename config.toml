@@ -7,6 +7,8 @@ languageCode = "en-us"
 baseURL = "https://tavares.re/"
 copyright = "© {year} André Tavares. Built with "
 
+enableRobotsTXT = true
+
 # Add your Disqus shortname here.
 # disqusShortname = ""
 
