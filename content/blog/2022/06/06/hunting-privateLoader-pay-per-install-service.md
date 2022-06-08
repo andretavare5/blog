@@ -16,8 +16,11 @@ PrivateLoader is a downloader, [first seen on early 2021](https://intel471.com/b
 
 Let's have a look at the malware and try to find a way to detect and hunt it.
 
-Here's a sample analyzed by [Zscaler](https://www.zscaler.com/blogs/security-research/peeking-privateloader) on April 2022: 
-[aa2c0a9e34f9fa4cbf1780d757cc84f32a8bd005142012e91a6888167f80f4d5](https://tria.ge/220430-z8fbmaagb9)
+Here's a [sample](https://tria.ge/220430-z8fbmaagb9) analyzed by [Zscaler](https://www.zscaler.com/blogs/security-research/peeking-privateloader) on April 2022: 
+
+```
+aa2c0a9e34f9fa4cbf1780d757cc84f32a8bd005142012e91a6888167f80f4d5
+```
 
 Let's open it on [Ghidra](https://ghidra-sre.org/). Going into the entry point, following the code, looking for interesting functions, I quickly spot the function at `0x406360`. It's calling `LoadLibraryA` but the `lpLibFileName` parameter is built dynamically at runtime using the stack. Its seems that we found a string obfuscation technique. Both the string and the xor key are loaded into the stack. Looking a bit more through the function, its seems that this is the way most of the strings are loaded:
 
