@@ -16,27 +16,33 @@ PrivateLoader is a downloader, [first seen on early 2021](https://intel471.com/b
 
 Let's have a look at the malware and try to find a way to detect and hunt it.
 
+## Stack Strings
+
 Here's a [sample](https://tria.ge/220430-z8fbmaagb9) analyzed by [Zscaler](https://www.zscaler.com/blogs/security-research/peeking-privateloader) on April 2022: 
 
 ```
 aa2c0a9e34f9fa4cbf1780d757cc84f32a8bd005142012e91a6888167f80f4d5
 ```
 
-Let's open it on [Ghidra](https://ghidra-sre.org/). Going into the entry point, following the code, looking for interesting functions, I quickly spot the function at `0x406360`. It's calling `LoadLibraryA` but the `lpLibFileName` parameter is built dynamically at runtime using the stack. Its seems that we found a string obfuscation technique. Both the string and the xor key are loaded into the stack. Looking a bit more through the function, its seems that this is the way most of the strings are loaded:
+Let's open it on [Ghidra](https://ghidra-sre.org/). Going into the entry point, following the code, looking for interesting functions, I quickly spot the function at `0x406360`. It's calling `LoadLibraryA` but the `lpLibFileName` parameter is built dynamically at runtime using the stack. Its seems that we found a string encryption technique. Both the string and the xor key are loaded into the stack. Looking a bit more through the function, its seems that this is the way most of the strings are loaded:
 
 <br />
-{{< figure src="/blog/2022/06/06/privateloader-stack-xor-str.webp" title="" >}}
+{{< figure src="/blog/2022/06/06/privateloader-stack-xor-str.webp" alt="privateloader stack xor str" >}}
 
 After XOR the encrypted string with the key, we get `kernel32.dll`.
 
-This uncommon string deobfuscation technique can be leveraged to build a [Yara](https://github.com/VirusTotal/yara) rule for detection and hunting purposes. To reduce the number of false positives and increase the rule performance, we can add a plaintext unicode string [used on the C2 communication](https://www.zscaler.com/blogs/security-research/peeking-privateloader) and a few minor conditions. Here's the rule: 
+## Detecting The Malware
+
+This uncommon string decryption technique can be leveraged to build a [Yara](https://github.com/VirusTotal/yara) rule for detection and hunting purposes. To reduce the number of false positives and increase the rule performance, we can add a plaintext unicode string [used on the C2 communication](https://www.zscaler.com/blogs/security-research/peeking-privateloader) and a few minor conditions. Here's the rule: 
 
 <br />
 {{< gist andretavare5 9d8eb659946ff509d9987c9be4031bb6 >}}
 
 After running this rule on VirusTotal retro hunting, I got over 1.5k samples on a 1 year timeframe. By manually analyzing some of the matches, I couldn't find any false positives. As a first attempt of hunting and detecting PrivateLoader, this rule seems to yield good results.
 
-Now, to faster analyze the malware and better understand its behavior, we should build a string deobfuscator to help us on our reversing efforts and better document the code. With the help of [Capstone](https://www.capstone-engine.org/) disassembly framework, and some trial and error, here's the script:
+## Decrypting The Strings
+
+Now, to faster analyze the malware and better understand its behavior, we should build a string decryptor to help us on our reversing efforts and better document the code. With the help of [Capstone](https://www.capstone-engine.org/) disassembly framework, and some trial and error, here's the script:
 
 ```python
 import pefile
@@ -61,13 +67,13 @@ instructions = []
 for (address, size, mnemonic, op_str) in md.disasm_lite(pe.sections[0].get_data(), 0):
   instructions.append((address, size, mnemonic, op_str))
 
-# search, build and deobfuscate strings
+# search, build and decrypt strings
 strings = []
 addr = None
 string = ''
 for i, inst in enumerate(instructions):
   if inst[2] == 'pxor': 
-    try: # possible string deobfuscation found
+    try: # possible string decryption found
       key_offset = inst[3].split(' ')[-1]
       key = search(instructions[:i][::-1], key_offset)
       insts = instructions[:i][::-1] # from pxor up
@@ -76,7 +82,7 @@ for i, inst in enumerate(instructions):
           # encrypted string being moved to xmm1
           str_offset = inst[3].split(' ')[-1]
           encrypted_str = search(insts[j:], str_offset)
-          # str chunk deobfuscation
+          # str chunk decryption
           string += bytearray(key[i] ^ string[i] for i in range(len(key))).decode()
           break # next chuck
           
@@ -169,6 +175,8 @@ After running it against the sample we are analyzing, we get the following strin
 ``` 
 
 We can now go back to Ghidra and continue our analysis, now with more context of what might be the malware's behavior. 
+
+## Network IOCs
 
 As a bonus, we get some network IOCs that can be used for defense and tracking purposes:
 

@@ -15,5 +15,5 @@ Published at: https://www.bitsight.com/blog/fraudulent-android-advertising-sdk-i
 ArrKii being advertised:
 
 <br />
-{{< figure src="/blog/2019/03/08/arrkii-ad.png" link="https://forums.makingmoneywithandroid.com/t/making-more-ca-h-with-your-android-apps-with-arrkii/19647" >}}
+{{< figure src="/blog/2019/03/08/arrkii-ad.png" alt="ArrKii being advertised" link="https://forums.makingmoneywithandroid.com/t/making-more-ca-h-with-your-android-apps-with-arrkii/19647" >}}
 
