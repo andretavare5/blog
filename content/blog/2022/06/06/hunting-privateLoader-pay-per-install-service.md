@@ -25,7 +25,7 @@ aa2c0a9e34f9fa4cbf1780d757cc84f32a8bd005142012e91a6888167f80f4d5
 Let's open it on [Ghidra](https://ghidra-sre.org/). Going into the entry point, following the code, looking for interesting functions, I quickly spot the function at `0x406360`. It's calling `LoadLibraryA` but the `lpLibFileName` parameter is built dynamically at runtime using the stack. Its seems that we found a string obfuscation technique. Both the string and the xor key are loaded into the stack. Looking a bit more through the function, its seems that this is the way most of the strings are loaded:
 
 <br />
-{{< figure src="/blog/2022/06/06/stack-xor-str.png" title="" >}}
+{{< figure src="/blog/2022/06/06/privateloader-stack-xor-str.webp" title="" >}}
 
 After XOR the encrypted string with the key, we get `kernel32.dll`.
 
