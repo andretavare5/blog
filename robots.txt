@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: 
+Sitemap: https://tavares.re/sitemap.xml
+
+
+
