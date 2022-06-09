@@ -83,7 +83,7 @@ for i, inst in enumerate(instructions):
           str_offset = inst[3].split(' ')[-1]
           encrypted_str = search(insts[j:], str_offset)
           # str chunk decryption
-          string += bytearray(key[i] ^ string[i] for i in range(len(key))).decode()
+          string += bytearray(key[i] ^ encrypted_str[i] for i in range(len(key))).decode()
           break # next chuck
           
       if not addr:
