@@ -33,7 +33,7 @@ enableRobotsTXT = true
   # Titles for your icons (shown as tooltips), and also their display order.
   # Currently, these icons are supported: 
   #   "Twitter", "GitHub", "Email", "Mastodon", "Facebook", "GitLab", "Instagram", "LinkedIn", "YouTube"
-  iconOrder = ["Twitter", "GitHub", "Email",  "RSS"]
+  iconOrder = ["Twitter", "Email",  "RSS"]
 
   # Metadata for Twitter cards, defaults to params.twitter
   twitterSite = "@andretavare5"
@@ -60,18 +60,21 @@ enableRobotsTXT = true
   name = "home"
   title = "Home"
   url = "/"
+  weight = 1
 
 [[menu.main]]
   identifier = "about"
   name = "about"
   title = "About"
   url = "/about"
+  weight = 2
 
 [[menu.main]]
   identifier = "blog"
   name = "blog"
   title = "Blog"
   url = "/blog"
+  weight = 3
 
 [params.colors]
   fancy = "orange"
