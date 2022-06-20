@@ -44,57 +44,8 @@ After running this rule on VirusTotal retro hunting, I got over 1.5k samples on 
 
 Now, to faster analyze the malware and better understand its behavior, we should build a string decryptor to help us on our reversing efforts and better document the code. With the help of [Capstone](https://www.capstone-engine.org/) disassembly framework, and some trial and error, here's the script:
 
-```python
-import pefile
-from capstone import *
-
-def search(instructions, offset):
-  dwords = []
-  for inst in instructions:
-    if inst[2] == 'mov':
-      try:
-        dword = int(inst[3].split(' ')[-1], 16).to_bytes(4, 'little')
-        dwords.append(dword)
-      except:
-        pass # not the mov we want
-      if inst[3].split(', ')[0].split(' ')[-1] == offset:
-        return b''.join(dwords[::-1][:4]) # 16 bytes str chunk      
-
-# disassemble .txt section
-pe = pefile.PE('aa2c0a9e34f9fa4cbf1780d757cc84f32a8bd005142012e91a6888167f80f4d5')
-md = Cs(CS_ARCH_X86, CS_MODE_32)
-instructions = []
-for (address, size, mnemonic, op_str) in md.disasm_lite(pe.sections[0].get_data(), 0):
-  instructions.append((address, size, mnemonic, op_str))
-
-# search, build and decrypt strings
-strings = []
-addr = None
-string = ''
-for i, inst in enumerate(instructions):
-  if inst[2] == 'pxor': 
-    try: # possible string decryption found
-      key_offset = inst[3].split(' ')[-1]
-      key = search(instructions[:i][::-1], key_offset)
-      insts = instructions[:i][::-1] # from pxor up
-      for j, inst in enumerate(insts):
-        if inst[2] == 'movaps': 
-          # encrypted string being moved to xmm1
-          str_offset = inst[3].split(' ')[-1]
-          encrypted_str = search(insts[j:], str_offset)
-          # str chunk decryption
-          string += bytearray(key[i] ^ encrypted_str[i] for i in range(len(key))).decode()
-          break # next chuck
-          
-      if not addr:
-        addr = hex(inst[0])
-      if '\x00' in string: 
-        strings.append((addr, string.replace('\x00', '')))
-        string = '' 
-        addr = None
-      except:
-        pass # not the pxor we want
-```
+<br />
+{{< gist andretavare5 66ec413cdb4c7c39d35c22d38c7067a8 >}}
 
 After running it against the sample we are analyzing, we get the following strings:
 
