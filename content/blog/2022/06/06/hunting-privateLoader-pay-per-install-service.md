@@ -38,7 +38,7 @@ This uncommon string decryption technique can be leveraged to build a [Yara](htt
 <br />
 {{< gist andretavare5 9d8eb659946ff509d9987c9be4031bb6 >}}
 
-After running this rule on VirusTotal retro hunting, I got over 1.5k samples on a 1 year timeframe. By manually analyzing some of the matches, I couldn't find any false positives. As a first attempt of hunting and detecting PrivateLoader, this rule seems to yield good results.
+After running this rule on VirusTotal retro hunting, I got over 1.7k samples on a 1 year timeframe. By manually analyzing some of the matches, I couldn't find any false positives. As a first attempt of hunting and detecting PrivateLoader, this rule seems to yield good results.
 
 ## Decrypting The Strings
 
