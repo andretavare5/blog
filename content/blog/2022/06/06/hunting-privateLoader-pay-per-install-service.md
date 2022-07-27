@@ -33,7 +33,7 @@ After XOR the encrypted string with the key, we get `kernel32.dll`.
 
 ## Detecting The Malware
 
-This uncommon string decryption technique can be leveraged to build a [Yara](https://github.com/VirusTotal/yara) rule for detection and hunting purposes. To reduce the number of false positives and increase the rule performance, we can add a plaintext unicode string [used on the C2 communication](https://www.zscaler.com/blogs/security-research/peeking-privateloader) and a few minor conditions. Here's the rule: 
+This uncommon string decryption technique can be leveraged to write a [Yara](https://github.com/VirusTotal/yara) rule for detection and hunting purposes. To reduce the number of false positives and increase the rule performance, we can add a plaintext unicode string [used on the C2 communication](https://www.zscaler.com/blogs/security-research/peeking-privateloader) and a few minor conditions. Here's the rule: 
 
 <br />
 {{< gist andretavare5 9d8eb659946ff509d9987c9be4031bb6 >}}
