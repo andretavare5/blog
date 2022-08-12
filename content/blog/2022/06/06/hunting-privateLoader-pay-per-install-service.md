@@ -12,7 +12,7 @@ toc: false
 <br />
 {{< figure src="/blog/2022/06/06/andreas-brun-f1SLpsPGODo-unsplash.webp" alt="Cat hunting" link="https://unsplash.com/photos/f1SLpsPGODo" >}}
 
-PrivateLoader, as the name indicates, is a malware loader [first seen in early 2021](https://intel471.com/blog/privateloader-malware). It's part of a pay-per-install malware distribution service that has been used to distribute info stealers, banking trojans, other loaders, and even ransomware, on machines running windows. The payloads are selectively delivered to victims based on location, financial activity, environment, and specific software installed. It has been seen hosted on websites that claim to provide cracked software.
+PrivateLoader is a malware loader from a pay-per-install malware distribution service, that has been used to distribute info stealers, banking trojans, other loaders, and even ransomware, on machines running windows. [First seen in early 2021](https://intel471.com/blog/privateloader-malware) being hosted on websites that claim to provide cracked software, the customers of the service are able to selectively deliver malware to victims based on location, financial activity, environment, and specific software installed.
 
 Let's have a look at the malware and try to find a way to detect and hunt it.
 
