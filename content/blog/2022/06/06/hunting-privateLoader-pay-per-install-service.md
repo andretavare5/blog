@@ -59,6 +59,7 @@ After running it against the sample we are analyzing, we get the following strin
 0x401657 SHGetFolderPathA
 0x40183b null
 0x402078 rb
+0x4025b0 http://212.193.30.45/proxies.txt
 0x402795 :1080
 0x402839 \n
 0x402f2d :1080
