@@ -1,4 +1,0 @@
-// custom.scss
-.fancy {
-  color: {{ .Site.Params.colors.fancy | default "orange" }}
-}
