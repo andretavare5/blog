@@ -4,7 +4,7 @@ baseURL = "https://tavares.re"
 theme = "LoveIt"
 
 # website title
-title = "Andre Tavares"
+title = "tavares.re"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 defaultContentLanguage = "en"
@@ -93,7 +93,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   dateFormat = "Jan 2, 2006"
 
   # website title for Open Graph and Twitter Cards
-  title = "Andre Tavares"
+  title = "tavares.re"
 
   # website description for RSS, SEO, Open Graph and Twitter Cards
   description = "Andre Tavares research blog"
@@ -115,7 +115,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       logo = ""
 
       # title name
-      name = "André Tavares"
+      name = "tavares.re"
 
       # you can add extra information before the name (HTML format is supported), such as icons
       #pre = "<i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i>"
@@ -176,7 +176,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "Andre Tavares"
+    title = "tavares.re"
 
     # whether to omit favicon resource links
     noFavicon = false
