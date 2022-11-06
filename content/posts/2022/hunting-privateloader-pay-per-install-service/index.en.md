@@ -4,7 +4,7 @@ title: "Hunting PrivateLoader: Pay-Per-Install Service"
 date: 2022-06-06
 lastmod: 2022-06-06
 draft: false
-description: "The malware's uncommon string decryption technique enable us to write a Yara rule for detection and hunting purposes. Also, I've built a string decryptor to extract IoCs and faster reverse the malware."
+description: "The malware's uncommon string decryption technique enable us to write a Yara rule for detection and hunting purposes."
 images: []
 resources:
 - name: "featured-image"

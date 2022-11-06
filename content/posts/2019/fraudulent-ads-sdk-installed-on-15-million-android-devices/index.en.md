@@ -4,7 +4,7 @@ title: "Fraudulent Ads SDK Installed On 15 Million Android Devices"
 date: 2019-03-08
 lastmod: 2019-03-08
 draft: false
-description: "Likely, most of the apps that embed these SDKs are not malicious, but are simply trying to monetize their work. However, by using these SDKs, app developers are often unknowingly placing their users at risk and facilitating advertising fraud."
+description: "By using these SDKs, app developers are often unknowingly placing their users at risk and facilitating advertising fraud."
 images: ["arrkii-ad.webp"]
 resources:
 - name: "featured-image"

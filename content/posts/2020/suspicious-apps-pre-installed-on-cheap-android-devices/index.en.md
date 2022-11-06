@@ -4,7 +4,7 @@ title: "Backdoors Pre-Installed on Cheap Android Devices"
 date: 2020-04-28
 lastmod: 2020-04-28
 draft: false
-description: "BitSight’s sinkhole data shows that Brazil is the most affected country, followed by Russia and India. These backdoors are pre-installed in low-cost devices from vendors with weak control over what’s installed in their devices."
+description: "BitSight’s sinkhole data shows that Brazil is the most affected country, followed by Russia and India."
 images: []
 resources:
 - name: "featured-image"
