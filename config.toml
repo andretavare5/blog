@@ -824,7 +824,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           social = true
           disclaimer = ""
       [languages.en.params.social]
-        #GitHub = "andretavare5"
+        GitHub = "andretavare5"
         Twitter = "andretavare5"
         #Instagram = "xxxx"
         #Facebook = "xxxx"
