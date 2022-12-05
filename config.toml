@@ -784,20 +784,28 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         title = ""
       [[languages.en.menu.main]]
         weight = 4
-        identifier = "categories"
+        identifier = "signatures"
         pre = ""
         post = ""
-        name = "Categories"
-        url = "/categories/"
+        name = "Signatures"
+        url = "https://gist.github.com/andretavare5"
         title = ""
-      [[languages.en.menu.main]]
-        weight = 5
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "Tags"
-        url = "/tags/"
-        title = ""
+      #[[languages.en.menu.main]]
+      #  weight = 5
+      #  identifier = "categories"
+      #  pre = ""
+      #  post = ""
+      #  name = "Categories"
+      #  url = "/categories/"
+      #  title = ""
+      #[[languages.en.menu.main]]
+      #  weight = 6
+      #  identifier = "tags"
+      #  pre = ""
+      #  post = ""
+      #  name = "Tags"
+      #  url = "/tags/"
+      #  title = ""
     [languages.en.params]
       [languages.en.params.search]
         enable = true
