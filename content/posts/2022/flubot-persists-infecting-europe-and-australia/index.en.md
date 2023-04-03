@@ -14,6 +14,7 @@ tags: ["flubot", "android", "malware", "botnet", "smishing", "banker", "bitsight
 categories: ["malware"]
 lightgallery: true
 toc: False
+ext_link: https://www.bitsight.com/blog/flubot-malware-persists-most-prevalent-germany-and-spain
 ---
 
 Published at: https://www.bitsight.com/blog/flubot-malware-persists-most-prevalent-germany-and-spain

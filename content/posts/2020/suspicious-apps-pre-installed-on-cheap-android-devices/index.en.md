@@ -13,6 +13,7 @@ tags: ["android", "malware", "backdoor", "supplychain", "botnet", "bitsight"]
 categories: ["malware"]
 lightgallery: true
 toc: False
+ext_link: https://www.bitsight.com/blog/pre-installed-android-threats-data-insights
 ---
 
 Published at: https://www.bitsight.com/blog/pre-installed-android-threats-data-insights

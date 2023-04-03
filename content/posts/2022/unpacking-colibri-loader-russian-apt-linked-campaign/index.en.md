@@ -13,6 +13,7 @@ tags: ["colibriloader", "malware", "loader", "yara", "windows", "bitsight", "rev
 categories: ["malware"]
 lightgallery: true
 toc: False
+ext_link: https://www.bitsight.com/blog/unpacking-colibri-loader-russian-apt-linked-campaign
 ---
 
 Published at: https://www.bitsight.com/blog/unpacking-colibri-loader-russian-apt-linked-campaign

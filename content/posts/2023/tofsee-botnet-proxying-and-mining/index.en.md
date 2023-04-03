@@ -13,6 +13,7 @@ tags: ["tofsee", "malware", "spambot", "windows", "bitsight", "reversing", "mine
 categories: ["malware"]
 lightgallery: true
 toc: False
+ext_link: https://www.bitsight.com/blog/tofsee-botnet-proxying-and-mining
 ---
 
 Published at: https://www.bitsight.com/blog/tofsee-botnet-proxying-and-mining
