@@ -168,7 +168,7 @@ mail.tools.android
 shkwe.djkw.ddd
 ```
 
-## Related domains
+## Related FQDNs
 ```
 aiadcreative.com
 ak.icecyber.org
