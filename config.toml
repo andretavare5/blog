@@ -260,7 +260,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       enable = true
       
       # special amount of posts in each home posts page
-      paginate = 6
+      paginate = 100
 
   # Social config in home page
   
