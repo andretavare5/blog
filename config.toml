@@ -370,27 +370,28 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # whether to show the full text content in RSS
     
     rssFullText = false
+
     # Table of the contents config
-    
     [params.page.toc]
+
       # whether to enable the table of the contents
-      
       enable = true
+
       # whether to keep the static table of the contents in front of the post
-      
-      keepStatic = false
+      keepStatic = true
+
       # whether to make the table of the contents in the sidebar automatically collapsed
-      
       auto = true
+
     # Code config
-    
     [params.page.code]
+
       # whether to show the copy button of the code block
-      
       copy = true
+
       # the maximum number of lines of displayed code by default
-      
       maxShownLines = 100
+
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     # KaTeX 数学公式配置 (KaTeX https://katex.org/)
     [params.page.math]
