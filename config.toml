@@ -42,7 +42,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # Author config
 [author]
   name = "André Tavares"
-  email = "andretavare5@pm.me"
+  email = "andretavare5@proton.me"
   link = "https://twitter.com/andretavare5"
 
 # Menu config
@@ -144,7 +144,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     author = true
     # site creation time
     
-    since = 2022
+    since = 2019
     # ICP info only in China (HTML format is supported)
     icp = ""
     # license info (HTML format is supported)
@@ -244,7 +244,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       title = "Andre Tavares"
 
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "Threat Researcher @ BitSight"
+      subtitle = ""
 
       # whether to use typeit animation for subtitle
       typeit = true
@@ -378,7 +378,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       enable = true
 
       # whether to keep the static table of the contents in front of the post
-      keepStatic = true
+      keepStatic = false
 
       # whether to make the table of the contents in the sidebar automatically collapsed
       auto = true
@@ -820,10 +820,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           gravatarEmail = ""
           avatarURL = "/images/avatar.jpg"
           title = "André Tavares"
-          subtitle = "Threat Researcher @ BitSight"
+          subtitle = "Cyber Threat Intelligence Researcher <a href='https://www.bitsight.com/' target='_blank'>@Bitsight</a>"
           typeit = false
           social = true
-          disclaimer = ""
+          disclaimer = "Tracking malware botnets 🤖"
       [languages.en.params.social]
         GitHub = "andretavare5"
         Twitter = "andretavare5"
@@ -832,7 +832,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         #Telegram = "xxxx"
         #Youtubelegacy = "xxxx"
         #Phone = "555-555-555"
-        Email = "andretavare5@pm.me"
+        Email = "andretavare5@proton.me"
         RSS = true
         [languages.en.params.social.Mastodon]
           id = "@andretavare5"
