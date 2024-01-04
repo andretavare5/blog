@@ -24,7 +24,7 @@ PrivateLoader is a loader from a pay-per-install malware distribution service th
 
 Let's have a look at the malware and try to find a way to detect and hunt it.
 
-# Searching for strings
+## Searching for strings
 
 Here's a [sample](https://tria.ge/220430-z8fbmaagb9) analyzed by [Zscaler](https://www.zscaler.com/blogs/security-research/peeking-privateloader) on April 2022: 
 
@@ -51,7 +51,7 @@ CALL      ESI=>KERNEL32.DLL::LoadLibraryA
 
 After XOR the encrypted string with the key, we get `kernel32.dll`.
 
-# Decrypting the strings
+## Decrypting the strings
 
 Now, to faster analyze the malware and better understand its behavior, we should build a string decryptor to help us on our reversing efforts and better document the code. With the help of [Capstone](https://www.capstone-engine.org/) disassembly framework, and some trial and error, here's the script:
 
@@ -136,7 +136,7 @@ After running it against the sample we are analyzing, we get the following strin
 
 Some of them are network IoCs that can be used for defense and tracking purposes. We can now go back to Ghidra and continue our analysis, now with more context of what might be the malware's capabilities.
 
-# Detecting the malware
+## Detecting and hunting the malware
 
 This uncommon string decryption technique enable us to write a [Yara](https://github.com/VirusTotal/yara) rule for detection and hunting purposes. To reduce the number of false positives and increase the rule performance, we can add some plaintext unicode strings [used on the C2 communication](https://www.zscaler.com/blogs/security-research/peeking-privateloader) and a few minor conditions. Here's the rule: 
 
