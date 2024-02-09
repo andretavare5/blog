@@ -1,6 +1,6 @@
 ---
 weight: 0
-title: "Hunting PrivateLoader: Pay-Per-Install Service"
+title: "Decrypting PrivateLoader Strings"
 date: 2022-06-06
 lastmod: 2022-06-06
 draft: false
