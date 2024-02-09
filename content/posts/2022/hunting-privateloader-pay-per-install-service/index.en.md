@@ -140,7 +140,7 @@ Some of them are network IoCs that can be used for defense and tracking purposes
 
 This uncommon string decryption technique enable us to write a [Yara](https://github.com/VirusTotal/yara) rule for detection and hunting purposes. To reduce the number of false positives and increase the rule performance, we can add some plaintext unicode strings [used on the C2 communication](https://www.zscaler.com/blogs/security-research/peeking-privateloader) and a few minor conditions. Here's the rule: 
 
-{{< gist andretavare5 9d8eb659946ff509d9987c9be4031bb6 >}}
+{{< gist andretavare5 "9d8eb659946ff509d9987c9be4031bb6/2aba78c871da34dcf3a2c2d5171f593299c0410e" >}}
 
 After running this rule on VirusTotal retro hunting, I got over 1k samples on a 1 year timeframe. By manually analyzing some of the matches, I couldn't find any false positives. As a first attempt of hunting and detecting PrivateLoader, this rule seems to yield good results.
 
