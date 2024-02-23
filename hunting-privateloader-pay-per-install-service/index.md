@@ -1,4 +1,4 @@
-# Decrypting PrivateLoader Strings
+# Decrypting and Hunting PrivateLoader
 
 
 PrivateLoader is a loader from a pay-per-install malware distribution service that has been utilized to distribute info stealers, banking trojans, loaders, spambots, rats, miners and ransomware on Windows machines. [First seen in early 2021](https://intel471.com/blog/privateloader-malware), being hosted on websites that claim to provide cracked software, the customers of the service are able to selectively deliver malware to victims based on location, financial activity, environment, and specific software installed.
