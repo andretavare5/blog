@@ -1,6 +1,6 @@
 ---
 weight: 0
-title: "Decrypting PrivateLoader Strings"
+title: "Decrypting and Hunting PrivateLoader"
 date: 2022-06-06
 lastmod: 2022-06-06
 draft: false
