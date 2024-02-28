@@ -3,6 +3,8 @@
 
 Published at: https://www.bitsight.com/blog/fraudulent-android-advertising-sdk-installed-in-over-15-million-devices
 
+![](arrkii-ad.webp)
+
 # Indicators of Compromise (IoCs)	
 
 ## APK Samples
