@@ -6,9 +6,6 @@ lastmod: 2024-01-09
 draft: false
 description: "AgentTesla remains a prevalent commodity stealer, mainly distributed via email attachments."
 images: []
-resources:
-- name: "featured-image"
-  src: "black-computer-keyboard-1osIUArK5oA.webp"
 tags: ["agenttesla", "originlogger", "malware", "infostealer", "windows", "bitsight"]
 categories: ["malware"]
 lightgallery: true

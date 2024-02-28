@@ -6,9 +6,6 @@ lastmod: 2024-03-28
 draft: false
 description: "An overview of current activities of the Tofsee botnet."
 images: []
-resources:
-- name: "featured-image"
-  src: "tofsee-botnet.webp"
 tags: ["tofsee", "malware", "spambot", "windows", "bitsight", "reversing", "miner", "proxy", "botnet"]
 categories: ["malware"]
 lightgallery: true

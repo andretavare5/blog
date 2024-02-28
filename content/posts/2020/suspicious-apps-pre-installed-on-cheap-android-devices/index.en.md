@@ -6,9 +6,6 @@ lastmod: 2020-04-28
 draft: false
 description: "BitSight’s sinkhole data shows that Brazil is the most affected country, followed by Russia and India."
 images: []
-resources:
-- name: "featured-image"
-  src: "supplychain-android-malware.webp"
 tags: ["android", "malware", "backdoor", "supplychain", "botnet", "bitsight"]
 categories: ["malware"]
 lightgallery: true

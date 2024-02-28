@@ -6,9 +6,6 @@ lastmod: 2022-06-06
 draft: false
 description: "The malware's uncommon string decryption technique enable us to write a Yara rule for detection and hunting purposes."
 images: []
-resources:
-- name: "featured-image"
-  src: "andreas-brun-f1SLpsPGODo-unsplash.webp"
 tags: ["privateloader", "malware", "loader", "reversing", "yara", "windows"]
 categories: ["malware"]
 lightgallery: true
