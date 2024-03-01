@@ -833,7 +833,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         #Youtubelegacy = "xxxx"
         #Phone = "555-555-555"
         Email = "andretavare5@proton.me"
-        RSS = true
-        [languages.en.params.social.Mastodon]
-          id = "@andretavare5"
-          prefix = "https://infosec.exchange/"
+        #RSS = true
+        #[languages.en.params.social.Mastodon]
+          #id = "@andretavare5"
+          #prefix = "https://infosec.exchange/"
