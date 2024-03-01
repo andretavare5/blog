@@ -4,7 +4,7 @@ baseURL = "https://tavares.re"
 theme = "LoveIt"
 
 # website title
-title = "tavares.re"
+title = "tavares.re(search)"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 defaultContentLanguage = "en"
@@ -25,7 +25,7 @@ paginate = 12
 googleAnalytics = ""
 
 # copyright description used only for seo schema
-copyright = "© 2022 André Tavares"
+copyright = "© 2024 André Tavares"
 
 # whether to use robots.txt
 enableRobotsTXT = true
@@ -43,7 +43,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 [author]
   name = "André Tavares"
   email = "andretavare5@proton.me"
-  link = "https://twitter.com/andretavare5"
+  link = "https://x.com/andretavare5"
 
 # Menu config
 [menu]
@@ -93,7 +93,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   dateFormat = "Jan 2, 2006"
 
   # website title for Open Graph and Twitter Cards
-  title = "tavares.re"
+  title = "tavares.re(search)"
 
   # website description for RSS, SEO, Open Graph and Twitter Cards
   description = "Threat research blog focused on tracking malware botnets."
@@ -115,7 +115,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       logo = ""
 
       # title name
-      name = "tavares.re"
+      name = "tavares.re(search)"
 
       # you can add extra information before the name (HTML format is supported), such as icons
       #pre = "<i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i>"
