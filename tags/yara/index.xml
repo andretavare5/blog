@@ -1,2 +1,38 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Yara - Tag - tavares.re(search)</title><link>https://tavares.re/tags/yara/</link><description>Yara - Tag - tavares.re(search)</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>andretavare5@proton.me (André Tavares)</managingEditor><webMaster>andretavare5@proton.me (André Tavares)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 30 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tavares.re/tags/yara/" rel="self" type="application/rss+xml"/><item><title>Unpacking Colibri Loader: A Russian APT linked Campaign</title><link>https://tavares.re/unpacking-colibri-loader-russian-apt-linked-campaign/</link><pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate><author>André Tavares</author><guid>https://tavares.re/unpacking-colibri-loader-russian-apt-linked-campaign/</guid><description>Published at: https://www.bitsight.com/blog/unpacking-colibri-loader-russian-apt-linked-campaign</description></item><item><title>Tracking PrivateLoader: Malware Distribution Service</title><link>https://tavares.re/tracking-privateloader-malware-distribution-service/</link><pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate><author>André Tavares</author><guid>https://tavares.re/tracking-privateloader-malware-distribution-service/</guid><description>Published at: https://www.bitsight.com/blog/tracking-privateloader-malware-distribution-service</description></item><item><title>Decrypting and Hunting PrivateLoader</title><link>https://tavares.re/hunting-privateloader-pay-per-install-service/</link><pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate><author>André Tavares</author><guid>https://tavares.re/hunting-privateloader-pay-per-install-service/</guid><description>PrivateLoader is a loader from a pay-per-install malware distribution service that has been utilized to distribute info stealers, banking trojans, loaders, spambots, rats, miners and ransomware on Windows machines. First seen in early 2021, being hosted on websites that claim to provide cracked software, the customers of the service are able to selectively deliver malware to victims based on location, financial activity, environment, and specific software installed.
-Let&amp;rsquo;s have a look at the malware and try to find a way to detect and hunt it.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Yara on tavares.re</title>
+    <link>https://tavares.re/tags/yara/</link>
+    <description>Recent content in Yara on tavares.re</description>
+    <image>
+      <title>tavares.re</title>
+      <url>https://tavares.re/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://tavares.re/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 30 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tavares.re/tags/yara/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unpacking Colibri Loader: A Russian APT linked Campaign</title>
+      <link>https://tavares.re/unpacking-colibri-loader-russian-apt-linked-campaign/</link>
+      <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/unpacking-colibri-loader-russian-apt-linked-campaign/</guid>
+      <description>Unpacking of a recent ColibriLoader campaign along with some YARA rules to detect it.</description>
+    </item>
+    <item>
+      <title>Tracking PrivateLoader: Malware Distribution Service</title>
+      <link>https://tavares.re/tracking-privateloader-malware-distribution-service/</link>
+      <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tracking-privateloader-malware-distribution-service/</guid>
+      <description>We identified 30 malware families distributed by PrivateLoader.</description>
+    </item>
+    <item>
+      <title>Decrypting and Hunting PrivateLoader</title>
+      <link>https://tavares.re/hunting-privateloader-pay-per-install-service/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/hunting-privateloader-pay-per-install-service/</guid>
+      <description>The malware&amp;#39;s uncommon string decryption technique enable us to write a Yara rule for detection and hunting purposes.</description>
+    </item>
+  </channel>
+</rss>

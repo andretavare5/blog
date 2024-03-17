@@ -1,1 +1,171 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Tags - Tag - tavares.re(search)</title><link>https://tavares.re/tags/</link><description>Tags - Tag - tavares.re(search)</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>andretavare5@proton.me (André Tavares)</managingEditor><webMaster>andretavare5@proton.me (André Tavares)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://tavares.re/tags/" rel="self" type="application/rss+xml"/><item><title>Bitsight</title><link>https://tavares.re/tags/bitsight/</link><pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate><author>André Tavares</author><guid>https://tavares.re/tags/bitsight/</guid><description></description></item><item><title>Loader</title><link>https://tavares.re/tags/loader/</link><pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate><author>André Tavares</author><guid>https://tavares.re/tags/loader/</guid><description></description></item><item><title>Malware</title><link>https://tavares.re/tags/malware/</link><pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate><author>André Tavares</author><guid>https://tavares.re/tags/malware/</guid><description></description></item><item><title>Privateloader</title><link>https://tavares.re/tags/privateloader/</link><pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate><author>André Tavares</author><guid>https://tavares.re/tags/privateloader/</guid><description></description></item><item><title>Reversing</title><link>https://tavares.re/tags/reversing/</link><pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate><author>André Tavares</author><guid>https://tavares.re/tags/reversing/</guid><description></description></item><item><title>Windows</title><link>https://tavares.re/tags/windows/</link><pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate><author>André Tavares</author><guid>https://tavares.re/tags/windows/</guid><description></description></item><item><title>Agenttesla</title><link>https://tavares.re/tags/agenttesla/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><author>André Tavares</author><guid>https://tavares.re/tags/agenttesla/</guid><description></description></item><item><title>Infostealer</title><link>https://tavares.re/tags/infostealer/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><author>André Tavares</author><guid>https://tavares.re/tags/infostealer/</guid><description></description></item><item><title>Originlogger</title><link>https://tavares.re/tags/originlogger/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><author>André Tavares</author><guid>https://tavares.re/tags/originlogger/</guid><description></description></item><item><title>Botnet</title><link>https://tavares.re/tags/botnet/</link><pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate><author>André Tavares</author><guid>https://tavares.re/tags/botnet/</guid><description></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on tavares.re</title>
+    <link>https://tavares.re/tags/</link>
+    <description>Recent content in Tags on tavares.re</description>
+    <image>
+      <title>tavares.re</title>
+      <url>https://tavares.re/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://tavares.re/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 27 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tavares.re/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bitsight</title>
+      <link>https://tavares.re/tags/bitsight/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/bitsight/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Loader</title>
+      <link>https://tavares.re/tags/loader/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/loader/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Malware</title>
+      <link>https://tavares.re/tags/malware/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/malware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privateloader</title>
+      <link>https://tavares.re/tags/privateloader/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/privateloader/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reversing</title>
+      <link>https://tavares.re/tags/reversing/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/reversing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>https://tavares.re/tags/windows/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agenttesla</title>
+      <link>https://tavares.re/tags/agenttesla/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/agenttesla/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infostealer</title>
+      <link>https://tavares.re/tags/infostealer/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/infostealer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Originlogger</title>
+      <link>https://tavares.re/tags/originlogger/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/originlogger/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Botnet</title>
+      <link>https://tavares.re/tags/botnet/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/botnet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Miner</title>
+      <link>https://tavares.re/tags/miner/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/miner/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proxy</title>
+      <link>https://tavares.re/tags/proxy/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/proxy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spambot</title>
+      <link>https://tavares.re/tags/spambot/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/spambot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tofsee</title>
+      <link>https://tavares.re/tags/tofsee/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/tofsee/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Colibriloader</title>
+      <link>https://tavares.re/tags/colibriloader/</link>
+      <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/colibriloader/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yara</title>
+      <link>https://tavares.re/tags/yara/</link>
+      <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/yara/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Android</title>
+      <link>https://tavares.re/tags/android/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/android/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Banker</title>
+      <link>https://tavares.re/tags/banker/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/banker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flubot</title>
+      <link>https://tavares.re/tags/flubot/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/flubot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Smishing</title>
+      <link>https://tavares.re/tags/smishing/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/smishing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backdoor</title>
+      <link>https://tavares.re/tags/backdoor/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/backdoor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Supplychain</title>
+      <link>https://tavares.re/tags/supplychain/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/supplychain/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
