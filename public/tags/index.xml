@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on tavares.re</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on tavares.re</description>
+    <image>
+      <title>tavares.re</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 27 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bitsight</title>
+      <link>http://localhost:1313/tags/bitsight/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bitsight/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Loader</title>
+      <link>http://localhost:1313/tags/loader/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/loader/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Malware</title>
+      <link>http://localhost:1313/tags/malware/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/malware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privateloader</title>
+      <link>http://localhost:1313/tags/privateloader/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/privateloader/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reversing</title>
+      <link>http://localhost:1313/tags/reversing/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/reversing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>http://localhost:1313/tags/windows/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agenttesla</title>
+      <link>http://localhost:1313/tags/agenttesla/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/agenttesla/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infostealer</title>
+      <link>http://localhost:1313/tags/infostealer/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/infostealer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Originlogger</title>
+      <link>http://localhost:1313/tags/originlogger/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/originlogger/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Botnet</title>
+      <link>http://localhost:1313/tags/botnet/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/botnet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Miner</title>
+      <link>http://localhost:1313/tags/miner/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/miner/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proxy</title>
+      <link>http://localhost:1313/tags/proxy/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/proxy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spambot</title>
+      <link>http://localhost:1313/tags/spambot/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/spambot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tofsee</title>
+      <link>http://localhost:1313/tags/tofsee/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tofsee/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Colibriloader</title>
+      <link>http://localhost:1313/tags/colibriloader/</link>
+      <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/colibriloader/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yara</title>
+      <link>http://localhost:1313/tags/yara/</link>
+      <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/yara/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Android</title>
+      <link>http://localhost:1313/tags/android/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/android/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Banker</title>
+      <link>http://localhost:1313/tags/banker/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/banker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flubot</title>
+      <link>http://localhost:1313/tags/flubot/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/flubot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Smishing</title>
+      <link>http://localhost:1313/tags/smishing/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/smishing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backdoor</title>
+      <link>http://localhost:1313/tags/backdoor/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/backdoor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Supplychain</title>
+      <link>http://localhost:1313/tags/supplychain/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/supplychain/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
