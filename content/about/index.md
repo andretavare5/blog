@@ -25,7 +25,7 @@ cover:
 
 Hello there! My name is André, I’m based in Portugal and currently a Senior Cyber Threat Intelligence Researcher at BitSight, tracking malware botnets through open-source intelligence, malware analysis and reverse engineering.
 
-Abuse.ch contributions (OSIT):
+Abuse.ch contributions (OSINT):
 
 https://urlhaus.abuse.ch/user/2726/
 
