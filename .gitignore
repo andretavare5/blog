@@ -33,3 +33,4 @@
 
 # Ignore Hugo server public directory
 server-public/
+.hugo_build.lock
