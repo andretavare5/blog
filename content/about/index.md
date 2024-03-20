@@ -25,7 +25,7 @@ cover:
 
 [tavares.re/blog](https://tavares.re/) | [X](https://x.com/andretavare5) | [LinkedIn](https://www.linkedin.com/in/andretavare5) | andretavare5@proton.me
 
-Cyber Threat Intelligence Researcher with a solid Computer Science background, specializing in tracking malware botnets through open-source intelligence, malware analysis, and reverse engineering. Proficient in developing detection signatures, conducting big data mining, and automating tasks to enhance cybersecurity efforts. Dedicated team player with a passion for tackling new challenges.
+Cyber Threat Intelligence Researcher with Computer Science background, tracking malware botnets through open-source intelligence, malware analysis and reverse engineering. Always looking for new challenges and ready to help the team.
 
 ## Professional Experience
 
@@ -86,4 +86,4 @@ Cyber Threat Intelligence Researcher with a solid Computer Science background, s
 
 ## Interests & Hobbies
 
-InfoSec | FOSS | Non-Fiction Books | Calisthenics | Traveling | Outdoors | Playing Guitar 🤘 | Casual Gaming | Sustainability | Volunteering
+InfoSec | FOSS | Non-Fiction Books | Calisthenics | Travelling | Outdoors | Playing Guitar 🤘 | Casual Gaming | Sustainability | Volunteering
