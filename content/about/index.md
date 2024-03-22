@@ -33,14 +33,14 @@ Cyber Threat Intelligence Researcher with a solid Computer Science background, s
 *Feb. 2022 — Present*  
 **Bitsight — Cyber Security Risk Management**, Lisbon, Portugal (Remote)
 
-- Conduct in-depth research on various malware families, including reverse engineering, botnet trackers development to monitor its network infrastructure and campaigns, and writing of detection signatures.
-- Big data mining on several vast datasets with Apache Spark on Amazon EMR.
+- Conducted in-depth research on various diverse malware families, such as PrivateLoader, AgentTesla and Tofsee, including reverse engineering, botnet trackers development to monitor its network infrastructure and campaigns, and writing of detection signatures.
+- Big data mining on various vast datasets with Apache Spark on Amazon EMR.
 
 ### Cyber Threat Intelligence Researcher  
 *Jan. 2020 — Jan. 2022*  
 **Bitsight — Cyber Security Risk Management**, Lisbon, Portugal (Remote)
 
-- Conduct in-depth research on various malware families, including reverse engineering, botnet trackers development to monitor its network infrastructure and campaigns, and writing of detection signatures.
+- Conducted research on various malware families, such as FluBot, IcedID and Trickbot, including reverse engineering, botnet trackers development to monitor its network infrastructure and campaigns, and writing of detection signatures.
 - Automated domain hunting and classification using Python, including domain clustering.
 
 ### Jr. Cyber Threat Intelligence Researcher  
