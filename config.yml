@@ -60,7 +60,7 @@ params:
   profileMode:
     enabled: True # needs to be explicitly set
     title: André Tavares
-    subtitle: "CTI Researcher [@Bitsight](https://www.bitsight.com/) -- Tracking malware botnets 🤖"
+    subtitle: "Threat Researcher [@Bitsight](https://www.bitsight.com/) -- Tracking malware botnets 🤖"
     imageUrl: "favicon.ico"
     imageWidth: 120
     imageHeight: 120
@@ -76,7 +76,7 @@ params:
   # home-info mode
   #homeInfoParams:
   #  Title: "André Tavares"
-  #  Content: "CTI Researcher [@Bitsight](https://www.bitsight.com/). Tracking malware botnets 🤖"
+  #  Content: "Threat Researcher [@Bitsight](https://www.bitsight.com/). Tracking malware botnets 🤖"
 
   socialIcons:
     - name: x
