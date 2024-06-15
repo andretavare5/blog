@@ -33,7 +33,7 @@ Threat Researcher with Computer Science background, tracking malware botnets thr
 *Feb. 2022 — Present*  
 **Bitsight — Cyber Security Risk Management**, Lisbon, Portugal (Remote)
 
-- Conducted in-depth research on various diverse malware families, such as PrivateLoader, AgentTesla and Tofsee, including reverse engineering, botnet trackers/emulators development to monitor its command and control (C2) infrastructure and distribution campaigns, and writing of detection signatures.
+- Conducted in-depth research on various diverse malware families, such as PrivateLoader, AgentTesla and Tofsee, including reverse engineering, botnet trackers/emulators development to monitor its command and control (C2) infrastructure and distribution campaigns, and writing of network/file/memory detection signatures.
 - Big data mining and enrichment on various datasets, with Apache Spark on Amazon EMR, aiming to discover compromised systems and credentials.
 
 ### Threat Researcher  
