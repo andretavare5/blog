@@ -47,7 +47,7 @@ Threat Researcher with Computer Science background, tracking malware botnets thr
 *Jan. 2018 — Dec. 2019*  
 **Bitsight — Cyber Security Risk Management**, Lisbon, Portugal
 
-- Identified and classified botnet command and control domain names through open-source intelligence, malware analysis and reverse engineering.
+- Discovered and classified botnet command and control domain names through open-source intelligence, malware analysis and reverse engineering, using Python for scripting.
 - Writing of network detection signatures.
 
 ## Research Highlights
