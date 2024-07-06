@@ -71,10 +71,10 @@ Threat Researcher with Computer Science background, tracking malware botnets thr
 
 ## Skills
 
-- **Languages:** Portuguese | English | Spanish
-- **Computer Languages:** Python | C++ | ASM | PySpark | SQL | Java | JavaScript | Bash
-- **Tools:** Ghidra | x64dbg | IDA | JADX | YARA | Docker | Apache Spark | Suricata | Wireshark | Git | VS Code | OpenSearch
-- **Personal:** Curiosity | Perseverance | Dedication | Teamwork | Problem-solving | Adaptability
+- **Languages:** Portuguese, English, Spanish.
+- **Computer Languages:** Python, C++, ASM, PySpark, SQL, Java, JavaScript, Bash.
+- **Tools:** Ghidra, x64dbg, IDA, JADX, YARA, Docker, Apache Spark, Suricata, Wireshark, Git, VS Code, OpenSearch.
+- **Personal:** Curiosity, Perseverance, Dedication, Teamwork, Problem-solving, Adaptability.
 
 ## Training Highlights
 
