@@ -73,7 +73,7 @@ Threat Researcher with Computer Science background, tracking malware botnets thr
 
 - **Languages:** Portuguese, English, Spanish.
 - **Computer Languages:** Python, C++, ASM, PySpark, SQL, Java, JavaScript, Bash.
-- **Tools:** Ghidra, x64dbg, IDA, JADX, YARA, Docker, Apache Spark, Suricata, Wireshark, Git, VS Code, OpenSearch.
+- **Tools:** Ghidra, x64dbg, IDA, JADX, YARA, RegEx, Docker, Suricata, Wireshark, Apache Spark, Git, VS Code, OpenSearch.
 - **Personal:** Curiosity, Perseverance, Dedication, Teamwork, Problem-solving, Adaptability.
 
 ## Training Highlights
@@ -87,4 +87,4 @@ Threat Researcher with Computer Science background, tracking malware botnets thr
 
 ## Interests & Hobbies
 
-InfoSec | FOSS | Non-Fiction Books | Calisthenics | Travelling | Outdoors | Playing Guitar 🤘 | Casual Gaming | Sustainability | Volunteering
+InfoSec, FOSS, Non-Fiction Books, Calisthenics, Travelling, Outdoors, Playing Guitar 🤘, Casual Gaming, Sustainability, Volunteering.
