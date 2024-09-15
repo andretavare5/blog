@@ -23,7 +23,7 @@ cover:
     hidden: true # only hide on current single page
 ---
 
-[tavares.re/blog](https://tavares.re/) | [X](https://x.com/andretavare5) | [LinkedIn](https://www.linkedin.com/in/andretavare5) | andretavare5@proton.me
+[tavares.re/blog](https://tavares.re/) | [X](https://x.com/andretavare5) | [LinkedIn](https://www.linkedin.com/in/andretavare5) | andretavare5@proton.me | [TRACE](https://www.bitsight.com/trace/team/andre-tavares) 
 
 Threat Researcher with Computer Science background, tracking malware botnets through open-source intelligence, malware analysis and reverse engineering. Always looking for new challenges, eager to share knowledge and ready to help the team.
 
@@ -83,7 +83,7 @@ Threat Researcher with Computer Science background, tracking malware botnets thr
 - [*Zero 2 Automated: The Advanced Malware Analysis Course* — Daniel Bunce and Vitali Kremez](https://courses.zero2auto.com/adv-malware-analysis-course)
 - [*Machine Learning with Python: Foundations* — LinkedIn Learning](https://www.linkedin.com/learning/certificates/b5271897a5c4849067a2e03cc8d8e194812377247e77a7417d33c19d17998dd1)
 - [Attendance to Botconf 2018-2024 — The Botnet and Malware Ecosystems Fighting Conference](https://www.botconf.eu/)
-- Attendance to Underground Economy Conference 2023
+- Attendance to Underground Economy Conference 2023/24
 
 ## Interests & Hobbies
 
