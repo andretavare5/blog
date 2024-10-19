@@ -11,13 +11,62 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tavares.re/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>agenttesla</title>
+      <link>https://tavares.re/tags/agenttesla/</link>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/agenttesla/</guid>
+      <description></description>
+    </item>
     <item>
       <title>bitsight</title>
       <link>https://tavares.re/tags/bitsight/</link>
-      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://tavares.re/tags/bitsight/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>infostealer</title>
+      <link>https://tavares.re/tags/infostealer/</link>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/infostealer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>malware</title>
+      <link>https://tavares.re/tags/malware/</link>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/malware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>snakekeylogger</title>
+      <link>https://tavares.re/tags/snakekeylogger/</link>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/snakekeylogger/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>telegram</title>
+      <link>https://tavares.re/tags/telegram/</link>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/telegram/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>vipkeylogger</title>
+      <link>https://tavares.re/tags/vipkeylogger/</link>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/vipkeylogger/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>windows</title>
+      <link>https://tavares.re/tags/windows/</link>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/windows/</guid>
       <description></description>
     </item>
     <item>
@@ -25,13 +74,6 @@
       <link>https://tavares.re/tags/loader/</link>
       <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://tavares.re/tags/loader/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>malware</title>
-      <link>https://tavares.re/tags/malware/</link>
-      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://tavares.re/tags/malware/</guid>
       <description></description>
     </item>
     <item>
@@ -46,27 +88,6 @@
       <link>https://tavares.re/tags/reversing/</link>
       <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://tavares.re/tags/reversing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>windows</title>
-      <link>https://tavares.re/tags/windows/</link>
-      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://tavares.re/tags/windows/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>agenttesla</title>
-      <link>https://tavares.re/tags/agenttesla/</link>
-      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://tavares.re/tags/agenttesla/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>infostealer</title>
-      <link>https://tavares.re/tags/infostealer/</link>
-      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://tavares.re/tags/infostealer/</guid>
       <description></description>
     </item>
     <item>

@@ -2,19 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tavares.re/tags/agenttesla/</loc>
+    <lastmod>2024-10-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://tavares.re/tags/bitsight/</loc>
-    <lastmod>2024-02-27T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tavares.re/exfiltration-over-telegram-bots-skidding-infostealer-logs/</loc>
+    <lastmod>2024-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tavares.re/tags/infostealer/</loc>
+    <lastmod>2024-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tavares.re/tags/malware/</loc>
+    <lastmod>2024-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tavares.re/posts/</loc>
+    <lastmod>2024-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tavares.re/tags/snakekeylogger/</loc>
+    <lastmod>2024-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tavares.re/tags/</loc>
+    <lastmod>2024-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tavares.re/</loc>
+    <lastmod>2024-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tavares.re/tags/telegram/</loc>
+    <lastmod>2024-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tavares.re/tags/vipkeylogger/</loc>
+    <lastmod>2024-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tavares.re/tags/windows/</loc>
+    <lastmod>2024-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tavares.re/hunting-privateloader-malware-behind-installskey-ppi-service/</loc>
     <lastmod>2024-02-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tavares.re/tags/loader/</loc>
-    <lastmod>2024-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tavares.re/tags/malware/</loc>
-    <lastmod>2024-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tavares.re/posts/</loc>
     <lastmod>2024-02-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tavares.re/tags/privateloader/</loc>
@@ -23,22 +50,7 @@
     <loc>https://tavares.re/tags/reversing/</loc>
     <lastmod>2024-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tavares.re/tags/</loc>
-    <lastmod>2024-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tavares.re/</loc>
-    <lastmod>2024-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tavares.re/tags/windows/</loc>
-    <lastmod>2024-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tavares.re/tags/agenttesla/</loc>
-    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://tavares.re/data-insights-agenttesla-and-originlogger-victims/</loc>
-    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tavares.re/tags/infostealer/</loc>
     <lastmod>2024-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tavares.re/tags/originlogger/</loc>

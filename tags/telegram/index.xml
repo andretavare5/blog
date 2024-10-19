@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>agenttesla on tavares.re</title>
-    <link>https://tavares.re/tags/agenttesla/</link>
-    <description>Recent content in agenttesla on tavares.re</description>
+    <title>telegram on tavares.re</title>
+    <link>https://tavares.re/tags/telegram/</link>
+    <description>Recent content in telegram on tavares.re</description>
     <image>
       <title>tavares.re</title>
       <url>https://tavares.re/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,20 +12,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 16 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://tavares.re/tags/agenttesla/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tavares.re/tags/telegram/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exfiltration over Telegram Bots: Skidding Infostealer Logs</title>
       <link>https://tavares.re/exfiltration-over-telegram-bots-skidding-infostealer-logs/</link>
       <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://tavares.re/exfiltration-over-telegram-bots-skidding-infostealer-logs/</guid>
       <description>This blog post focuses on analyzing logs exfiltrated by infostealers, specifically to Telegram, through their Bot API.</description>
-    </item>
-    <item>
-      <title>Data Insights on AgentTesla and OriginLogger Victims</title>
-      <link>https://tavares.re/data-insights-agenttesla-and-originlogger-victims/</link>
-      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://tavares.re/data-insights-agenttesla-and-originlogger-victims/</guid>
-      <description>AgentTesla remains a prevalent commodity stealer, mainly distributed via email attachments.</description>
     </item>
   </channel>
 </rss>

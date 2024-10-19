@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tavares.re/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exfiltration over Telegram Bots: Skidding Infostealer Logs</title>
+      <link>https://tavares.re/exfiltration-over-telegram-bots-skidding-infostealer-logs/</link>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/exfiltration-over-telegram-bots-skidding-infostealer-logs/</guid>
+      <description>This blog post focuses on analyzing logs exfiltrated by infostealers, specifically to Telegram, through their Bot API.</description>
+    </item>
     <item>
       <title>Hunting PrivateLoader: The malware behind InstallsKey PPI service</title>
       <link>https://tavares.re/hunting-privateloader-malware-behind-installskey-ppi-service/</link>
