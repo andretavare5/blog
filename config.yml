@@ -82,7 +82,7 @@ params:
     - name: x
       url: "https://x.com/andretavare5"
     - name: email
-      url: "mailto:andretavare5@proton.me"
+      url: "mailto:andretavare5<AT>proton.me"
 
   analytics:
     google:

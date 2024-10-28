@@ -23,7 +23,7 @@ cover:
     hidden: true # only hide on current single page
 ---
 
-[tavares.re/blog](https://tavares.re/) | [X](https://x.com/andretavare5) | [LinkedIn](https://www.linkedin.com/in/andretavare5) | andretavare5@proton.me | [TRACE](https://www.bitsight.com/trace/team/andre-tavares) 
+[tavares.re/blog](https://tavares.re/) | [X](https://x.com/andretavare5) | [LinkedIn](https://www.linkedin.com/in/andretavare5) | [TRACE](https://www.bitsight.com/trace/team/andre-tavares) | [mailto: andretavare5 AT proton.me](mailto:andretavare5<AT>proton.me) 
 
 Threat Researcher with Computer Science background, tracking malware botnets through open-source intelligence, malware analysis and reverse engineering. Always looking for new challenges, eager to share knowledge and ready to help the team.
 
