@@ -51,7 +51,7 @@ Threat Researcher with Computer Science background, tracking malware botnets thr
 - Writing of network detection signatures.
 
 ## Research Highlights
-
+- [*Exfiltration over Telegram Bots: Skidding Infostealer Logs* (Bitsight, Oct. 2024)](https://www.bitsight.com/blog/exfiltration-over-telegram-bots-skidding-infostealer-logs)
 - [*Hunting PrivateLoader: The malware behind InstallsKey PPI service* (Bitsight, Feb. 2024)](https://www.bitsight.com/blog/hunting-privateloader-malware-behind-installskey-ppi-service)
 - [*Data Insights on AgentTesla and OriginLogger Victims* (Bitsight, Jan. 2024)](https://www.bitsight.com/blog/data-insights-agenttesla-and-originlogger-victims)
 - [*Tofsee Botnet: Proxying and Mining* (Bitsight, Mar. 2023)](https://www.bitsight.com/blog/tofsee-botnet-proxying-and-mining)
@@ -59,7 +59,7 @@ Threat Researcher with Computer Science background, tracking malware botnets thr
 - [*FluBot Persists: Infecting Europe and Australia* (Bitsight, Feb. 2022)](https://www.bitsight.com/blog/flubot-malware-persists-most-prevalent-germany-and-spain)
 - [*Backdoors Pre-Installed on Cheap Android Devices* (Bitsight, Apr. 2020)](https://www.bitsight.com/blog/pre-installed-android-threats-data-insights)
 - [*Fraudulent Ads SDK Installed On 15 Million Android Devices* (Bitsight, Mar. 2019)](https://tavares.re/fraudulent-ads-sdk-installed-on-15-million-android-devices/)
-- OSINT contributions on [abuse.ch](https://abuse.ch/): [ThreatFox](https://threatfox.abuse.ch/user/22597/), [MalwareBaazar](https://bazaar.abuse.ch/user/1024/), [YARAify](https://yaraify.abuse.ch/user/6993/) and [URLHaus](https://urlhaus.abuse.ch/user/2726/)
+- Malware OSINT contributions on [abuse.ch](https://abuse.ch/): [ThreatFox](https://threatfox.abuse.ch/user/22597/), [MalwareBaazar](https://bazaar.abuse.ch/user/1024/), [YARAify](https://yaraify.abuse.ch/user/6993/) and [URLHaus](https://urlhaus.abuse.ch/user/2726/)
 
 ## Education
 
@@ -77,7 +77,7 @@ Threat Researcher with Computer Science background, tracking malware botnets thr
 - **Personal:** Curiosity, Perseverance, Dedication, Teamwork, Problem-solving, Adaptability.
 
 ## Training Highlights
-
+- [(Started) *Introduction to Malware Binary Triage* — Invoke RE (Joshua Reynolds)](https://training.invokere.com/course/imbt)
 - [*Advanced Malware Reverse Engineering with Ghidra* — Kaspersky (Igor Kuznetsov and Georgy Kucherin)](https://kaspersky-xtraining.com/course/advanced-malware-reverse-engineering-with-ghidra)
 - [*Targeted Malware Reverse Engineering* — Kaspersky (Ivan Kwiatkowski and Denis Legezo)](https://kaspersky-xtraining.com/course/targeted-malware-reverse-engineering)
 - [*Zero 2 Automated: The Advanced Malware Analysis Course* — Daniel Bunce and Vitali Kremez](https://courses.zero2auto.com/adv-malware-analysis-course)
