@@ -33,7 +33,7 @@ Threat Researcher with Computer Science background, tracking malware botnets thr
 *Feb. 2022 — Present*  
 **Bitsight — Cyber Risk Intelligence**, Lisbon, Portugal (Remote)
 
-- Conducted in-depth research on various diverse malware families, such as PrivateLoader, AgentTesla and Tofsee, including reverse engineering, botnet trackers/emulators development to monitor its command and control (C2) infrastructure and distribution campaigns, and writing of network/file/memory detection signatures.
+- Conducted in-depth research on various diverse malware families, such as Vo1d, PrivateLoader and AgentTesla, including reverse engineering, botnet trackers/emulators development to monitor its command and control (C2) infrastructure and distribution campaigns, and writing of network/file/memory detection signatures.
 - Big data mining and enrichment on various datasets, with Apache Spark on Amazon EMR, aiming to discover compromised systems and credentials.
 
 ### Threat Researcher  
@@ -51,15 +51,16 @@ Threat Researcher with Computer Science background, tracking malware botnets thr
 - Writing of network detection signatures.
 
 ## Research Highlights
-- [*Exfiltration over Telegram Bots: Skidding Infostealer Logs* (Bitsight, Oct. 2024)](https://www.bitsight.com/blog/exfiltration-over-telegram-bots-skidding-infostealer-logs)
-- [*Hunting PrivateLoader: The malware behind InstallsKey PPI service* (Bitsight, Feb. 2024)](https://www.bitsight.com/blog/hunting-privateloader-malware-behind-installskey-ppi-service)
-- [*Data Insights on AgentTesla and OriginLogger Victims* (Bitsight, Jan. 2024)](https://www.bitsight.com/blog/data-insights-agenttesla-and-originlogger-victims)
-- [*Tofsee Botnet: Proxying and Mining* (Bitsight, Mar. 2023)](https://www.bitsight.com/blog/tofsee-botnet-proxying-and-mining)
-- [*Unpacking Colibri Loader: A Russian APT linked Campaign* (Bitsight, Nov. 2022)](https://www.bitsight.com/blog/unpacking-colibri-loader-russian-apt-linked-campaign)
-- [*FluBot Persists: Infecting Europe and Australia* (Bitsight, Feb. 2022)](https://www.bitsight.com/blog/flubot-malware-persists-most-prevalent-germany-and-spain)
-- [*Backdoors Pre-Installed on Cheap Android Devices* (Bitsight, Apr. 2020)](https://www.bitsight.com/blog/pre-installed-android-threats-data-insights)
-- [*Fraudulent Ads SDK Installed On 15 Million Android Devices* (Bitsight, Mar. 2019)](https://tavares.re/fraudulent-ads-sdk-installed-on-15-million-android-devices/)
-- Malware OSINT contributions on [abuse.ch](https://abuse.ch/): [ThreatFox](https://threatfox.abuse.ch/user/22597/), [MalwareBaazar](https://bazaar.abuse.ch/user/1024/), [YARAify](https://yaraify.abuse.ch/user/6993/) and [URLHaus](https://urlhaus.abuse.ch/user/2726/)
+- [*[BSidesLisbon talk] Into the Vo1d: Hunting a Botnet Hidden in TV boxes* (Nov. 2025)](https://www.bsideslisbon.org/2025/speakers/#andr%C3%A9tavaresTalk)
+- [*Exfiltration over Telegram Bots: Skidding Infostealer Logs* (Oct. 2024)](https://www.bitsight.com/blog/exfiltration-over-telegram-bots-skidding-infostealer-logs)
+- [*Hunting PrivateLoader: The malware behind InstallsKey PPI service* (Feb. 2024)](https://www.bitsight.com/blog/hunting-privateloader-malware-behind-installskey-ppi-service)
+- [*Data Insights on AgentTesla and OriginLogger Victims* (Jan. 2024)](https://www.bitsight.com/blog/data-insights-agenttesla-and-originlogger-victims)
+- [*Tofsee Botnet: Proxying and Mining* (Mar. 2023)](https://www.bitsight.com/blog/tofsee-botnet-proxying-and-mining)
+- [*Unpacking Colibri Loader: A Russian APT linked Campaign* (Nov. 2022)](https://www.bitsight.com/blog/unpacking-colibri-loader-russian-apt-linked-campaign)
+- [*FluBot Persists: Infecting Europe and Australia* (Feb. 2022)](https://www.bitsight.com/blog/flubot-malware-persists-most-prevalent-germany-and-spain)
+- [*Backdoors Pre-Installed on Cheap Android Devices* (Apr. 2020)](https://www.bitsight.com/blog/pre-installed-android-threats-data-insights)
+- [*Fraudulent Ads SDK Installed On 15 Million Android Devices* (Mar. 2019)](https://tavares.re/fraudulent-ads-sdk-installed-on-15-million-android-devices/)
+- Malware OSINT contributions on abuse.ch (andretavare5 and Bitsight)
 
 ## Education
 
@@ -67,7 +68,7 @@ Threat Researcher with Computer Science background, tracking malware botnets thr
 *Sep. 2012 - Nov. 2017*  
 **Instituto Superior Técnico – Universidade de Lisboa**, Lisbon, Portugal
 
-- Specializations: Cyber Security & Software Engineering (Erasmus @ Universiteit van Amsterdam)
+- Specializations: Cyber Security & Software Engineering -- Erasmus @ UvA (Amsterdam)
 
 ## Skills
 
@@ -77,14 +78,14 @@ Threat Researcher with Computer Science background, tracking malware botnets thr
 - **Personal:** Curiosity, Perseverance, Dedication, Teamwork, Problem-solving, Adaptability.
 
 ## Training Highlights
-- [(Started) *Introduction to Malware Binary Triage* — Invoke RE (Joshua Reynolds)](https://training.invokere.com/course/imbt)
-- [*Advanced Malware Reverse Engineering with Ghidra* — Kaspersky (Igor Kuznetsov and Georgy Kucherin)](https://kaspersky-xtraining.com/course/advanced-malware-reverse-engineering-with-ghidra)
-- [*Targeted Malware Reverse Engineering* — Kaspersky (Ivan Kwiatkowski and Denis Legezo)](https://kaspersky-xtraining.com/course/targeted-malware-reverse-engineering)
-- [*Zero 2 Automated: The Advanced Malware Analysis Course* — Daniel Bunce and Vitali Kremez](https://courses.zero2auto.com/adv-malware-analysis-course)
+- [(Started) *Introduction to Malware Binary Triage* — Invoke RE](https://training.invokere.com/course/imbt)
+- [*Advanced Malware Reverse Engineering with Ghidra* — Kaspersky](https://kaspersky-xtraining.com/course/advanced-malware-reverse-engineering-with-ghidra)
+- [*Targeted Malware Reverse Engineering* — Kaspersky](https://kaspersky-xtraining.com/course/targeted-malware-reverse-engineering)
+- [*Zero 2 Automated: The Advanced Malware Analysis Course* — 0ffset Training Solutions](https://courses.zero2auto.com/adv-malware-analysis-course)
 - [*Machine Learning with Python: Foundations* — LinkedIn Learning](https://www.linkedin.com/learning/certificates/b5271897a5c4849067a2e03cc8d8e194812377247e77a7417d33c19d17998dd1)
 - [Attendance to Botconf 2018-2024 — The Botnet and Malware Ecosystems Fighting Conference](https://www.botconf.eu/)
 - Attendance to Underground Economy Conference 2023/24
 
 ## Interests & Hobbies
 
-InfoSec, FOSS, Non-Fiction Books, Calisthenics, Travelling, Outdoors, Playing Guitar 🤘, Casual Gaming, Sustainability, Volunteering.
+InfoSec, FOSS, Reading, Calisthenics, Travelling, Climbing, Outdoors, Playing Guitar 🤘, Casual Gaming, Sustainability, Volunteering.
