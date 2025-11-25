@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tavares.re/tags/loader/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Into the Vo1d: Hunting a Botnet Hidden in TV boxes</title>
+      <link>https://tavares.re/into-the-vo1d-hunting-a-botnet-hidden-in-tv-boxes/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/into-the-vo1d-hunting-a-botnet-hidden-in-tv-boxes/</guid>
+      <description>&amp;#39;Into the Vo1d&amp;#39; is both a deep dive into a resilient IoT botnet and a broader lesson in threat hunting.</description>
+    </item>
     <item>
       <title>Hunting PrivateLoader: The malware behind InstallsKey PPI service</title>
       <link>https://tavares.re/hunting-privateloader-malware-behind-installskey-ppi-service/</link>

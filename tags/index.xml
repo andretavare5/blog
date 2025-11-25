@@ -11,8 +11,57 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tavares.re/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bitsight</title>
+      <link>https://tavares.re/tags/bitsight/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/bitsight/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>iot</title>
+      <link>https://tavares.re/tags/iot/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/iot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>loader</title>
+      <link>https://tavares.re/tags/loader/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/loader/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>malware</title>
+      <link>https://tavares.re/tags/malware/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/malware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>proxy</title>
+      <link>https://tavares.re/tags/proxy/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/proxy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>reversing</title>
+      <link>https://tavares.re/tags/reversing/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/reversing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>vo1d</title>
+      <link>https://tavares.re/tags/vo1d/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://tavares.re/tags/vo1d/</guid>
+      <description></description>
+    </item>
     <item>
       <title>agenttesla</title>
       <link>https://tavares.re/tags/agenttesla/</link>
@@ -21,24 +70,10 @@
       <description></description>
     </item>
     <item>
-      <title>bitsight</title>
-      <link>https://tavares.re/tags/bitsight/</link>
-      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://tavares.re/tags/bitsight/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>infostealer</title>
       <link>https://tavares.re/tags/infostealer/</link>
       <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://tavares.re/tags/infostealer/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>malware</title>
-      <link>https://tavares.re/tags/malware/</link>
-      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://tavares.re/tags/malware/</guid>
       <description></description>
     </item>
     <item>
@@ -70,24 +105,10 @@
       <description></description>
     </item>
     <item>
-      <title>loader</title>
-      <link>https://tavares.re/tags/loader/</link>
-      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://tavares.re/tags/loader/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>privateloader</title>
       <link>https://tavares.re/tags/privateloader/</link>
       <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://tavares.re/tags/privateloader/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>reversing</title>
-      <link>https://tavares.re/tags/reversing/</link>
-      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://tavares.re/tags/reversing/</guid>
       <description></description>
     </item>
     <item>
@@ -109,13 +130,6 @@
       <link>https://tavares.re/tags/miner/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://tavares.re/tags/miner/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>proxy</title>
-      <link>https://tavares.re/tags/proxy/</link>
-      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://tavares.re/tags/proxy/</guid>
       <description></description>
     </item>
     <item>
