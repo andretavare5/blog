@@ -51,7 +51,7 @@ Threat Researcher with Computer Science background, tracking malware botnets thr
 - Writing of network detection signatures.
 
 ## Research Highlights
-- [*[BSidesLisbon talk] Into the Vo1d: Hunting a Botnet Hidden in TV boxes* (Nov. 2025)](https://www.bsideslisbon.org/2025/speakers/#andr%C3%A9tavaresTalk)
+- [*\[BSidesLisbon talk\] Into the Vo1d: Hunting a Botnet Hidden in TV boxes* (Nov. 2025)](https://www.bsideslisbon.org/2025/speakers/#andr%C3%A9tavaresTalk)
 - [*Exfiltration over Telegram Bots: Skidding Infostealer Logs* (Oct. 2024)](https://www.bitsight.com/blog/exfiltration-over-telegram-bots-skidding-infostealer-logs)
 - [*Hunting PrivateLoader: The malware behind InstallsKey PPI service* (Feb. 2024)](https://www.bitsight.com/blog/hunting-privateloader-malware-behind-installskey-ppi-service)
 - [*Data Insights on AgentTesla and OriginLogger Victims* (Jan. 2024)](https://www.bitsight.com/blog/data-insights-agenttesla-and-originlogger-victims)
