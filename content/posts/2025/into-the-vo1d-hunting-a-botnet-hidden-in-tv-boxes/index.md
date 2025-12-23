@@ -33,4 +33,4 @@ cover:
     hidden: true # only hide on current single page
 ---
 
-Published at: https://www.bsideslisbon.org/2025/speakers/#andr%C3%A9tavaresTalk
+Published at: https://youtu.be/FLOQfcGHUuQ?si=YXEUpp8X2974Tt9f
