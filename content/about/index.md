@@ -78,13 +78,12 @@ Threat Researcher with Computer Science background, tracking malware botnets thr
 - **Personal:** Curiosity, Perseverance, Dedication, Teamwork, Problem-solving, Adaptability.
 
 ## Training Highlights
-- [(Started) *Introduction to Malware Binary Triage* — Invoke RE](https://training.invokere.com/course/imbt)
-- [*Advanced Malware Reverse Engineering with Ghidra* — Kaspersky](https://kaspersky-xtraining.com/course/advanced-malware-reverse-engineering-with-ghidra)
-- [*Targeted Malware Reverse Engineering* — Kaspersky](https://kaspersky-xtraining.com/course/targeted-malware-reverse-engineering)
-- [*Zero 2 Automated: The Advanced Malware Analysis Course* — 0ffset Training Solutions](https://courses.zero2auto.com/adv-malware-analysis-course)
-- [*Machine Learning with Python: Foundations* — LinkedIn Learning](https://www.linkedin.com/learning/certificates/b5271897a5c4849067a2e03cc8d8e194812377247e77a7417d33c19d17998dd1)
-- [Attendance to Botconf 2018-2024 — The Botnet and Malware Ecosystems Fighting Conference](https://www.botconf.eu/)
-- Attendance to Underground Economy Conference 2023/24
+- [*Introduction to Malware Binary Triage*](https://training.invokere.com/course/imbt) — Invoke RE
+- [*Targeted Malware Reverse Engineering*](https://kaspersky-xtraining.com/course/targeted-malware-reverse-engineering) — Kaspersky
+- [*Advanced Malware Reverse Engineering with Ghidra*](https://kaspersky-xtraining.com/course/advanced-malware-reverse-engineering-with-ghidra) — Kaspersky
+- [*Zero 2 Automated: The Advanced Malware Analysis Course*](https://courses.zero2auto.com/adv-malware-analysis-course) — 0ffset Training Solutions
+- [Botconf](https://www.botconf.eu/) 2018/25 — The Botnet and Malware Ecosystems Fighting Conference
+- UE 2023/24 - Underground Economy Conference 
 
 ## Interests & Hobbies
 
