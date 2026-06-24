@@ -33,7 +33,7 @@ Threat Researcher with Computer Science background, tracking malware botnets thr
 *Feb. 2022 — Present*  
 **Bitsight — Cyber Risk Intelligence**, Lisbon, Portugal (Remote)
 
-- Conducted in-depth research on various diverse malware families, such as Vo1d, PrivateLoader and AgentTesla, including reverse engineering, botnet trackers/emulators development to monitor its command and control (C2) infrastructure and distribution campaigns, and writing of network/file/memory detection signatures.
+- Conducted in-depth research on various diverse malware families, such as Vo1d, Amadey and StealC, including reverse engineering, botnet trackers/emulators development to monitor its command and control (C2) infrastructure and distribution campaigns, and writing of network/file/memory detection signatures.
 - Big data mining and enrichment on various datasets, with Apache Spark on Amazon EMR, aiming to discover compromised systems and credentials.
 
 ### Threat Researcher  
@@ -51,6 +51,7 @@ Threat Researcher with Computer Science background, tracking malware botnets thr
 - Writing of network detection signatures.
 
 ## Research Highlights
+- [*Amadey and StealC: Malware-as-a-Service Unavailable* (Jun. 2026)](https://www.bitsight.com/blog/bitsight-aids-disruption-efforts-on-amadey-malware-and-stealc-malware)
 - [*\[BSidesLisbon talk\] Into the Vo1d: Hunting a Botnet Hidden in TV boxes* (Nov. 2025)](https://www.bsideslisbon.org/2025/speakers/#andr%C3%A9tavaresTalk)
 - [*Exfiltration over Telegram Bots: Skidding Infostealer Logs* (Oct. 2024)](https://www.bitsight.com/blog/exfiltration-over-telegram-bots-skidding-infostealer-logs)
 - [*Hunting PrivateLoader: The malware behind InstallsKey PPI service* (Feb. 2024)](https://www.bitsight.com/blog/hunting-privateloader-malware-behind-installskey-ppi-service)
