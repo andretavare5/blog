@@ -2,8 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tavares.re/tags/amadey/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tavares.re/amadey-and-stealc-malware-as-a-service-unavailable/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://tavares.re/tags/bitsight/</loc>
-    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tavares.re/tags/infostealer/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tavares.re/tags/loader/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tavares.re/tags/malware/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tavares.re/posts/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tavares.re/tags/stealc/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tavares.re/tags/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tavares.re/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tavares.re/into-the-vo1d-hunting-a-botnet-hidden-in-tv-boxes/</loc>
     <lastmod>2025-11-14T00:00:00+00:00</lastmod>
@@ -11,25 +38,10 @@
     <loc>https://tavares.re/tags/iot/</loc>
     <lastmod>2025-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tavares.re/tags/loader/</loc>
-    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tavares.re/tags/malware/</loc>
-    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tavares.re/posts/</loc>
-    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://tavares.re/tags/proxy/</loc>
     <lastmod>2025-11-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tavares.re/tags/reversing/</loc>
-    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tavares.re/tags/</loc>
-    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tavares.re/</loc>
     <lastmod>2025-11-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tavares.re/tags/vo1d/</loc>
@@ -39,9 +51,6 @@
     <lastmod>2024-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tavares.re/exfiltration-over-telegram-bots-skidding-infostealer-logs/</loc>
-    <lastmod>2024-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tavares.re/tags/infostealer/</loc>
     <lastmod>2024-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tavares.re/tags/snakekeylogger/</loc>
