@@ -31,7 +31,7 @@ Research entries use `summary`, `description`, and `format`. External publicatio
 
 Contribution and outcome claims must be supported by the linked public publications. Preserve author credits, collective attribution, observation windows, and the distinction between records, IPs, and devices.
 
-Research thumbnails use `thumbnail.image` and `thumbnail.alt`. The generated WebP images in `static/images/research/` appear in article listings and below each post header with a central 5:1 crop. Post-header images load eagerly; listing images load lazily. They are separate from social sharing images. Use each publication's original imagery and public research context as generation references, keep text out of the artwork, and maintain descriptive alternative text. Sources and final prompts are recorded in [docs/research-thumbnails.md](docs/research-thumbnails.md).
+Research thumbnails use `thumbnail.image` and `thumbnail.alt`. The generated WebP images in `static/images/research/` appear in homepage research cards, article listings, and below each post header with a central 5:1 crop. Post-header images load eagerly; homepage and listing images load lazily. They are separate from social sharing images. Use each publication's original imagery and public research context as generation references, keep text out of the artwork, and maintain descriptive alternative text. Sources and final prompts are recorded in [docs/research-thumbnails.md](docs/research-thumbnails.md).
 
 ## Save the CV as PDF
 

@@ -18,6 +18,11 @@
   <div class="work-grid">
   {{ range (where site.RegularPages "Params.featured" true).ByParam "featuredOrder" }}
     <article class="work-card">
+      {{ if .Params.thumbnail.image }}
+      <a class="work-thumbnail" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+        {{ partial "cover.html" (dict "cxt" . "IsSingle" false) }}
+      </a>
+      {{ end }}
       <p class="work-meta">{{ .Params.format }} · {{ .Date.Format "2006" }}</p>
       <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
       <p>{{ .Summary | plainify }}</p>

@@ -21,6 +21,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
 .work-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
 .work-card { padding: 26px; border: 1px solid var(--border); border-radius: 10px; background: var(--entry); }
 .work-card:first-child { grid-column: 1 / -1; }
+.work-thumbnail { display: block; }
 .work-meta { font-size: 13px; color: var(--secondary); margin-bottom: 12px; }
 .work-card h3 { font-size: 22px; line-height: 1.35; letter-spacing: -.015em; }
 .work-card h3 a:hover { color: var(--accent); }
