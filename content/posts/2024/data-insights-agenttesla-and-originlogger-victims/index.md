@@ -1,36 +1,21 @@
 ---
 title: "Data Insights on AgentTesla and OriginLogger Victims"
-date: 2024-01-09T00:00:00+00:00
-# lastmod: 2024-01-09T00:00:00+00:00 # CHECK IF THIS EXSISTS
-# weight: 1
-# aliases: ["/first"]
+date: "2024-01-09T00:00:00+00:00"
+lastmod: "2026-09-15T00:00:00+01:00"
+description: "Configuration and infection-data analysis of AgentTesla and OriginLogger, including their exfiltration methods."
+summary: "Configuration and infection-data analysis of AgentTesla and OriginLogger, including their exfiltration methods."
+format: "Research article"
 tags: ["agenttesla", "originlogger", "malware", "infostealer", "windows", "bitsight"]
-# author: "Me"
-# author: ["Me", "You"] # multiple authors
-showToc: true
-TocOpen: false
-draft: false
-hidemeta: false
-comments: false
-description: "AgentTesla remains a prevalent commodity stealer, mainly distributed via email attachments."
-canonicalURL: "https://tavares.re/data-insights-agenttesla-and-originlogger-victims/"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
-searchHidden: false
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
-ShowRssButtonInSectionTermList: true
-UseHugoToc: true
-cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+sourceURL: "https://www.bitsight.com/blog/data-insights-agenttesla-and-originlogger-victims"
+thumbnail:
+  image: "images/research/data-insights-agenttesla-and-originlogger-victims.webp"
+  alt: "A blue-lit keyboard with identity records flowing through email to connected devices"
 ---
 
-Published at: https://www.bitsight.com/blog/data-insights-agenttesla-and-originlogger-victims
+AgentTesla and OriginLogger are closely related Windows information stealers. This January 2024 article examines their shared history, configuration data, and methods for exfiltrating credentials and other stolen information.
+
+The research analyzes more than 1,500 configurations collected over the preceding three months. Email remained the most common exfiltration method in that collection, while Telegram accounted for a substantial minority. The article also explores what the available infection telemetry suggests about affected systems.
+
+Configurations are an approximate proxy for campaigns. The results describe the collected samples and telemetry, with the limits of that visibility, rather than every AgentTesla or OriginLogger deployment.
+
+[Read the original article at Bitsight](https://www.bitsight.com/blog/data-insights-agenttesla-and-originlogger-victims)

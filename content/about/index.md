@@ -1,91 +1,74 @@
 ---
-title: "André Tavares"
-draft: false
+title: André Tavares
+layout: cv
+role: Senior Threat Researcher
+description: "CV of André Tavares: malware analysis, reverse engineering, botnet tracking, detection, and research engineering. Based in Lisbon, Portugal."
 hidemeta: true
-comments: false
-canonicalURL: "https://tavares.re/about/"
-disableHLJS: true # to disable highlightjs
-disableShare: true
-disableHLJS: false
-hideSummary: false
-searchHidden: true
-ShowReadingTime: false
+ShowPostNavLinks: false
 ShowBreadCrumbs: false
-ShowPostNavLinks: true
-ShowWordCount: false
-ShowRssButtonInSectionTermList: true
-UseHugoToc: true
-cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
 ---
 
-[tavares.re/blog](https://tavares.re/) | [X](https://x.com/andretavare5) | [LinkedIn](https://www.linkedin.com/in/andretavare5) | [TRACE](https://www.bitsight.com/trace/team/andre-tavares) | [mailto: andretavare5 AT proton.me](mailto:andretavare5<AT>proton.me) 
+Senior threat researcher at Bitsight, with experience since 2018 in malware analysis, reverse engineering, and botnet tracking. I develop malware emulators and detection signatures, automate infrastructure research, and analyze large datasets to identify compromised systems and exposed credentials. I share findings, indicators, and detection tools through publications, conference talks, and community contributions.
 
-Threat Researcher with Computer Science background, tracking malware botnets through open-source intelligence, malware analysis and reverse engineering. Always looking for new challenges, eager to share knowledge and ready to help the team.
+## Experience
 
-## Professional Experience
+### Senior Threat Researcher · Bitsight
 
-### Senior Threat Researcher  
-*Feb. 2022 — Present*  
-**Bitsight — Cyber Risk Intelligence**, Lisbon, Portugal (Remote)
+**February 2022 - Present** · Lisbon, Portugal · Remote
 
-- Conducted in-depth research on various diverse malware families, such as Vo1d, Amadey and StealC, including reverse engineering, botnet trackers/emulators development to monitor its command and control (C2) infrastructure and distribution campaigns, and writing of network/file/memory detection signatures.
-- Big data mining and enrichment on various datasets, with Apache Spark on Amazon EMR, aiming to discover compromised systems and credentials.
+- Research malware including Vo1d, Amadey, StealC, and Vidar through reverse engineering, botnet tracking, and command-and-control (C2) infrastructure analysis.
+- Develop botnet trackers and emulators to monitor C2 activity and malware distribution campaigns.
+- Develop network, file, and memory detection signatures, and publish technical research on malware behavior and infrastructure.
+- Analyze and enrich NetFlow data, passive DNS records, and infostealer logs with Apache Spark on Amazon EMR to identify compromised systems and exposed credentials.
 
-### Threat Researcher  
-*Jan. 2020 — Jan. 2022*  
-**Bitsight — Cyber Risk Intelligence**, Lisbon, Portugal (Remote)
+### Threat Researcher · Bitsight
 
-- Conducted research on various malware families, such as FluBot, IcedID and Trickbot, including reverse engineering, botnet trackers/emulators development to monitor its command and control (C2) infrastructure and distribution campaigns, and writing of detection signatures.
-- Automated domain hunting and classification using Python, including domain clustering.
+**January 2020 - January 2022** · Lisbon, Portugal · Remote
 
-### Junior Threat Researcher  
-*Jan. 2018 — Dec. 2019*  
-**Bitsight — Cyber Risk Intelligence**, Lisbon, Portugal
+- Reverse engineered malware including FluBot, IcedID, and TrickBot; developed botnet trackers, emulators, and detection signatures to monitor C2 infrastructure and distribution campaigns.
+- Automated domain hunting, classification, and clustering with Python.
 
-- Discovered and classified botnet command and control domain names through open-source intelligence, malware analysis and reverse engineering, using Python for scripting.
-- Writing of network detection signatures.
+### Junior Threat Researcher · Bitsight
 
-## Research Highlights
-- [*Amadey and StealC: Malware-as-a-Service Unavailable* (Jun. 2026)](https://www.bitsight.com/blog/bitsight-aids-disruption-efforts-on-amadey-malware-and-stealc-malware)
-- [*\[BSidesLisbon talk\] Into the Vo1d: Hunting a Botnet Hidden in TV boxes* (Nov. 2025)](https://www.bsideslisbon.org/2025/speakers/#andr%C3%A9tavaresTalk)
-- [*Exfiltration over Telegram Bots: Skidding Infostealer Logs* (Oct. 2024)](https://www.bitsight.com/blog/exfiltration-over-telegram-bots-skidding-infostealer-logs)
-- [*Hunting PrivateLoader: The malware behind InstallsKey PPI service* (Feb. 2024)](https://www.bitsight.com/blog/hunting-privateloader-malware-behind-installskey-ppi-service)
-- [*Data Insights on AgentTesla and OriginLogger Victims* (Jan. 2024)](https://www.bitsight.com/blog/data-insights-agenttesla-and-originlogger-victims)
-- [*Tofsee Botnet: Proxying and Mining* (Mar. 2023)](https://www.bitsight.com/blog/tofsee-botnet-proxying-and-mining)
-- [*Unpacking Colibri Loader: A Russian APT linked Campaign* (Nov. 2022)](https://www.bitsight.com/blog/unpacking-colibri-loader-russian-apt-linked-campaign)
-- [*FluBot Persists: Infecting Europe and Australia* (Feb. 2022)](https://www.bitsight.com/blog/flubot-malware-persists-most-prevalent-germany-and-spain)
-- [*Backdoors Pre-Installed on Cheap Android Devices* (Apr. 2020)](https://www.bitsight.com/blog/pre-installed-android-threats-data-insights)
-- [*Fraudulent Ads SDK Installed On 15 Million Android Devices* (Mar. 2019)](https://tavares.re/fraudulent-ads-sdk-installed-on-15-million-android-devices/)
-- Malware OSINT contributions on abuse.ch (andretavare5 and Bitsight)
+**January 2018 - December 2019** · Lisbon, Portugal
+
+- Discovered and classified botnet C2 domains using open-source intelligence, malware analysis, and reverse engineering.
+- Wrote Python scripts and network detection signatures to support threat research.
+
+## Technical skills
+
+- **Malware analysis and reverse engineering:** Ghidra, IDA, x64dbg, JADX.
+- **Botnet and infrastructure research:** C2 protocol emulation; OSINT; domain hunting, classification, and clustering.
+- **Detection development and network analysis:** network, file, and memory signatures; YARA, Suricata, Wireshark.
+- **Research automation and large-scale data processing:** Python, PySpark, SQL, Bash, regular expressions; Apache Spark on Amazon EMR, OpenSearch.
+- **Additional programming and development tools:** C++, assembly, Java, JavaScript; Git, Docker, VS Code.
+
+## Selected research and speaking
+
+- **[Amadey and StealC: Malware-as-a-Service Unavailable](https://www.bitsight.com/blog/bitsight-aids-disruption-efforts-on-amadey-malware-and-stealc-malware) · June 2026.** Bitsight TRACE contributed C2 infrastructure mapping, indicators, and infection telemetry to a disruption led by Europol and Microsoft. The team's publication documents sample hunting, configuration extraction, bot emulation, and published YARA and Suricata rules.
+- **[Into the Vo1d: Hunting a Botnet Hidden in TV Boxes](https://tavares.re/into-the-vo1d-hunting-a-botnet-hidden-in-tv-boxes/) · BSides Lisbon, November 2025.** Presented our team's investigation of an Android TV botnet, connecting malware analysis, DNS intelligence, sinkhole telemetry, and collaboration between researchers. [Recording](https://youtu.be/FLOQfcGHUuQ).
+- **[Exfiltration over Telegram Bots](https://www.bitsight.com/blog/exfiltration-over-telegram-bots-skidding-infostealer-logs) · October 2024.** Authored a study of credential exfiltration using a team dataset of about five million logs from approximately 1,800 bots, with parsing covering 27 infostealer families. These were historical log records, mostly from 2022 onward, rather than a count of unique victims.
+
+**Community contributions:** Malware OSINT contributions to [abuse.ch](https://abuse.ch/) under andretavare5 and Bitsight.
+
+[Full research archive](https://tavares.re/posts/)
 
 ## Education
 
-**B.Sc. + M.Sc. in Computer Science and Engineering**  
-*Sep. 2012 - Nov. 2017*  
-**Instituto Superior Técnico – Universidade de Lisboa**, Lisbon, Portugal
+**B.Sc. + M.Sc. in Computer Science and Engineering**\
+Instituto Superior Técnico, Universidade de Lisboa · Lisbon, Portugal\
+September 2012 - November 2017\
+Specializations in Cyber Security and Software Engineering. Erasmus exchange at the University of Amsterdam.
 
-- Specializations: Cyber Security & Software Engineering -- Erasmus @ UvA (Amsterdam)
+## Training and conferences
 
-## Skills
+- [Introduction to Malware Binary Triage](https://training.invokere.com/course/imbt) · Invoke RE.
+- [Targeted Malware Reverse Engineering](https://kaspersky-xtraining.com/course/targeted-malware-reverse-engineering) and [Advanced Malware Reverse Engineering with Ghidra](https://kaspersky-xtraining.com/course/advanced-malware-reverse-engineering-with-ghidra) · Kaspersky.
+- [Zero 2 Automated: The Advanced Malware Analysis Course](https://courses.0ffset.net/adv-malware-analysis-course) · 0ffset Training Solutions.
+- **Conference attendance:** [Botconf](https://www.botconf.eu/), 2018-2026; Underground Economy, 2023/24/26.
 
-- **Languages:** Portuguese, English, Spanish.
-- **Computer Languages:** Python, C++, ASM, PySpark, SQL, Java, JavaScript, Bash.
-- **Tools:** Ghidra, x64dbg, IDA, JADX, YARA, RegEx, Docker, Suricata, Wireshark, Apache Spark, Git, VS Code, OpenSearch.
-- **Personal:** Curiosity, Perseverance, Dedication, Teamwork, Problem-solving, Adaptability.
+## Languages and interests
 
-## Training Highlights
-- [*Introduction to Malware Binary Triage*](https://training.invokere.com/course/imbt) — Invoke RE
-- [*Targeted Malware Reverse Engineering*](https://kaspersky-xtraining.com/course/targeted-malware-reverse-engineering) — Kaspersky
-- [*Advanced Malware Reverse Engineering with Ghidra*](https://kaspersky-xtraining.com/course/advanced-malware-reverse-engineering-with-ghidra) — Kaspersky
-- [*Zero 2 Automated: The Advanced Malware Analysis Course*](https://courses.zero2auto.com/adv-malware-analysis-course) — 0ffset Training Solutions
-- [Botconf](https://www.botconf.eu/) 2018/25 — The Botnet and Malware Ecosystems Fighting Conference
-- UE 2023/24 - Underground Economy Conference 
+**Languages:** Portuguese, English, Spanish.
 
-## Interests & Hobbies
-
-InfoSec, FOSS, Reading, Calisthenics, Travelling, Climbing, Outdoors, Playing Guitar 🤘, Casual Gaming, Sustainability, Volunteering.
+**Interests:** InfoSec, FOSS, reading, calisthenics, travel, climbing, outdoors, guitar, casual gaming, sustainability, and volunteering.

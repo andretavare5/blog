@@ -1,36 +1,15 @@
-# Ignore compiled files
-*.css
-*.css.map
-*.js
-*.js.map
-
-# Ignore Hugo generated files
-/resources/
+# Hugo output and caches
 /public/
-/themes/*/exampleSite/
-*.html
-*.xml
-*.json
-*.svg
+/resources/
+/server-public/
+/.hugo_build.lock
+/themes/*/exampleSite/public/
+/themes/*/exampleSite/resources/
 
-# Ignore Hugo cache and temporary files
-/resources/_gen/
-/resources/_template_data/
-/resources/_vendor/
-/resources/assets/gen/
-/resources/assets/node_modules/
-/resources/assets/node_modules/*
-/resources/assets/bower_components/
-/resources/assets/bower_components/*
-/public/resources/
-/public/index.html
-
-# Ignore macOS directory metadata files
+# Local tools, temporary exports, and editor state
+/node_modules/
+/tmp/
+/output/
+/.vscode/
 .DS_Store
-
-# Ignore backup files
 *~
-
-# Ignore Hugo server public directory
-server-public/
-.hugo_build.lock

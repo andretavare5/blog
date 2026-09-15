@@ -1,36 +1,21 @@
 ---
 title: "FluBot Persists: Infecting Europe and Australia"
-date: 2022-02-04T00:00:00+00:00
-# lastmod: 2022-02-04T00:00:00+00:00 # CHECK IF THIS EXSISTS
-# weight: 1
-# aliases: ["/first"]
+date: "2022-02-04T00:00:00+00:00"
+lastmod: "2026-09-15T00:00:00+01:00"
+description: "A historical investigation of FluBot distribution, infection telemetry, and its domain-generation algorithm."
+summary: "A historical investigation of FluBot distribution, infection telemetry, and its domain-generation algorithm."
+format: "Research article"
 tags: ["flubot", "android", "malware", "botnet", "smishing", "banker", "bitsight"]
-# author: "Me"
-# author: ["Me", "You"] # multiple authors
-showToc: true
-TocOpen: false
-draft: false
-hidemeta: false
-comments: false
-description: "This Android banker commonly spreads via SMS messages to the contacts on an infected device."
-canonicalURL: "https://tavares.re/flubot-persists-infecting-europe-and-australia/"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
-searchHidden: false
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
-ShowRssButtonInSectionTermList: true
-UseHugoToc: true
-cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+sourceURL: "https://www.bitsight.com/blog/flubot-malware-persists-most-prevalent-germany-and-spain"
+thumbnail:
+  image: "images/research/flubot-persists-infecting-europe-and-australia.webp"
+  alt: "SMS-linked phones beside a map highlighting Europe and Australia"
 ---
 
-Published at: https://www.bitsight.com/blog/flubot-malware-persists-most-prevalent-germany-and-spain
+FluBot is Android banking malware that commonly spreads through SMS messages sent to contacts on an infected device. This February 2022 article documents the threat and the infection activity visible to Bitsight at the time.
+
+The publication combines distribution context with available telemetry and shares indicators of compromise. It also includes a Python implementation of FluBot's version 3 domain-generation algorithm, connecting malware analysis with the infrastructure used for command and control.
+
+Read the findings as a historical snapshot. Geographic patterns and indicators are tied to the observed collection period and should not be treated as evidence that the same infrastructure remains active.
+
+[Read the original article at Bitsight](https://www.bitsight.com/blog/flubot-malware-persists-most-prevalent-germany-and-spain)

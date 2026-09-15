@@ -1,0 +1,13 @@
+{{ define "main" }}
+<article class="resume">
+  <header class="resume-header">
+    <div><p class="eyebrow">About / CV</p><h1>{{ .Title }}</h1><p class="resume-role">{{ .Params.role }}</p></div>
+    <button type="button" class="print-button" id="print-cv">Print / Save PDF</button>
+  </header>
+  <p class="resume-contact">Lisbon, Portugal · <a href="mailto:andretavare5@proton.me">andretavare5@proton.me</a><br>
+    <a href="https://tavares.re/">tavares.re</a> · <a href="https://www.linkedin.com/in/andretavare5">LinkedIn: andretavare5</a> · <a href="https://gist.github.com/andretavare5">Code: GitHub Gists</a><br>
+    <a href="https://www.bitsight.com/our-team/andre-tavares">Bitsight TRACE profile</a> · <a href="https://x.com/andretavare5">X: @andretavare5</a>
+  </p>
+  <div class="post-content resume-content">{{ .Content }}</div>
+</article>
+{{ end }}

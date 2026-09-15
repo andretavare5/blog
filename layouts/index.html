@@ -1,0 +1,34 @@
+{{ define "main" }}
+<section class="home-intro" aria-labelledby="intro-title">
+  <div>
+    <p class="eyebrow">{{ .Params.role }}</p>
+    <h1 id="intro-title">{{ .Title }}</h1>
+    <div class="intro-copy">{{ .Content }}</div>
+    <p class="intro-location">Lisbon, Portugal · Malware analysis &amp; botnet tracking</p>
+    <div class="home-actions">
+      <a class="primary-action" href="{{ "posts/" | relURL }}">Explore my research <span aria-hidden="true">↗</span></a>
+      <a href="{{ "about/" | relURL }}">About / CV</a>
+    </div>
+    {{ partial "social_icons.html" (dict "align" "left") }}
+  </div>
+  <img class="portrait" src="{{ "favicon.ico" | relURL }}" alt="André Tavares" width="144" height="144">
+</section>
+<section class="selected-work" aria-labelledby="selected-title">
+  <div class="section-heading"><h2 id="selected-title">Selected research</h2><a href="{{ "posts/" | relURL }}">All research <span aria-hidden="true">→</span></a></div>
+  <div class="work-grid">
+  {{ range (where site.RegularPages "Params.featured" true).ByParam "featuredOrder" }}
+    <article class="work-card">
+      <p class="work-meta">{{ .Params.format }} · {{ .Date.Format "2006" }}</p>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <p>{{ .Summary | plainify }}</p>
+      <span class="work-focus">{{ .Params.focus }}</span>
+    </article>
+  {{ end }}
+  </div>
+</section>
+<section class="home-contact" aria-labelledby="contact-title">
+  <h2 id="contact-title">Get in touch</h2>
+  <p>For research conversations, collaboration, or professional opportunities:</p>
+  <a href="mailto:andretavare5@proton.me">andretavare5@proton.me</a>
+</section>
+{{ end }}

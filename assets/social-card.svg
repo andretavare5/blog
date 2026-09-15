@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f7f8f6"/>
+  <path d="M0 0h16v630H0z" fill="#126b68"/>
+  <g fill="none" stroke="#126b68" stroke-width="2" opacity=".18">
+    <path d="m940 90 140 95-30 170-150 60-90-130 130-195zm0 0 110 265M810 285l270-100M900 415l40-325"/>
+    <circle cx="940" cy="90" r="9"/><circle cx="1080" cy="185" r="9"/>
+    <circle cx="1050" cy="355" r="9"/><circle cx="900" cy="415" r="9"/><circle cx="810" cy="285" r="9"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="85" y="120" font-size="24" letter-spacing="2" fill="#126b68">TAVARES.RE</text>
+    <text x="80" y="280" font-size="78" font-weight="700" fill="#172322">André Tavares</text>
+    <text x="85" y="350" font-size="34" fill="#263a38">Senior Threat Researcher</text>
+    <text x="85" y="465" font-size="27" fill="#485b58">Malware analysis · Reverse engineering</text>
+    <text x="85" y="508" font-size="27" fill="#485b58">Botnet tracking · Detection</text>
+  </g>
+</svg>

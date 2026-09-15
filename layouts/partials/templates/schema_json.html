@@ -1,0 +1,10 @@
+{{- $person := dict "@type" "Person" "name" site.Params.author "url" ("about/" | absURL) "jobTitle" "Senior Threat Researcher" "sameAs" (slice "https://www.linkedin.com/in/andretavare5" "https://github.com/andretavare5" "https://x.com/andretavare5") -}}
+{{- $description := .Description | default site.Params.description | plainify -}}
+{{- $schema := dict "@context" "https://schema.org" "@type" "CollectionPage" "name" .Title "url" .Permalink "description" $description -}}
+{{- if or .IsHome (eq .Layout "cv") -}}
+  {{- $schema = merge $schema (dict "@type" "ProfilePage" "mainEntity" $person) -}}
+{{- else if .IsPage -}}
+  {{- $schema = merge $schema (dict "@type" "BlogPosting" "headline" .Title "author" $person "datePublished" (.PublishDate.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "mainEntityOfPage" .Permalink "image" ("images/social-card.png" | absURL)) -}}
+  {{- with .Params.sourceURL }}{{ $schema = merge $schema (dict "isBasedOn" .) }}{{ end -}}
+{{- end -}}
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>

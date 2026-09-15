@@ -1,36 +1,21 @@
 ---
 title: "Tofsee Botnet: Proxying and Mining"
-date: 2023-03-28T00:00:00+00:00
-# lastmod: 2023-03-28T00:00:00+00:00 # CHECK IF THIS EXSISTS
-# weight: 1
-# aliases: ["/first"]
+date: "2023-03-28T00:00:00+00:00"
+lastmod: "2026-09-15T00:00:00+01:00"
+description: "Investigating the proxying, spam, and cryptocurrency-mining activity of the modular Tofsee botnet."
+summary: "Investigating the proxying, spam, and cryptocurrency-mining activity of the modular Tofsee botnet."
+format: "Research article"
 tags: ["tofsee", "malware", "spambot", "windows", "bitsight", "reversing", "miner", "proxy", "botnet"]
-# author: "Me"
-# author: ["Me", "You"] # multiple authors
-showToc: true
-TocOpen: false
-draft: false
-hidemeta: false
-comments: false
-description: "An overview of current activities of the Tofsee botnet."
-canonicalURL: "https://tavares.re/tofsee-botnet-proxying-and-mining/"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
-searchHidden: false
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
-ShowRssButtonInSectionTermList: true
-UseHugoToc: true
-cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+sourceURL: "https://www.bitsight.com/blog/tofsee-botnet-proxying-and-mining"
+thumbnail:
+  image: "images/research/tofsee-botnet-proxying-and-mining.webp"
+  alt: "A malicious email linked to proxy nodes, a processor, and mining coins"
 ---
 
-Published at: https://www.bitsight.com/blog/tofsee-botnet-proxying-and-mining
+Tofsee is a modular Windows botnet with capabilities that include proxying, spam delivery, and cryptocurrency mining. This March 2023 investigation examines the activity observed through its modules and infrastructure.
+
+The published analysis describes spam traffic carried through the proxy module, extracts a miner configuration, and follows activity associated with Masari mining. It also distinguishes a module being delivered from evidence that the module was actually active.
+
+The geographic observations come from Bitsight's sampled visibility in March 2023. They provide context for the observed botnet activity and should not be interpreted as a complete or current distribution of infected systems.
+
+[Read the original article at Bitsight](https://www.bitsight.com/blog/tofsee-botnet-proxying-and-mining)

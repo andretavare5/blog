@@ -1,46 +1,32 @@
 ---
-title: "Fraudulent Ads SDK Installed On 15 Million Android Devices"
-date: 2019-03-08T00:00:00+00:00
-# lastmod: 2019-03-08T00:00:00+00:00 # CHECK IF THIS EXSISTS
-# weight: 1
-# aliases: ["/first"]
+title: "Fraudulent Ads SDK Installed on 15 Million Android Devices"
+date: "2019-03-08T00:00:00+00:00"
+lastmod: "2026-09-15T00:00:00+01:00"
+description: "An Android advertising SDK investigation, with a historical appendix of sample hashes, package names, and domains."
+summary: "An Android advertising SDK investigation, with a historical appendix of sample hashes, package names, and domains."
+format: "Research article"
 tags: ["android", "botnet", "malware", "bitsight"]
-# author: "Me"
-# author: ["Me", "You"] # multiple authors
+sourceURL: "https://www.bitsight.com/blog/fraudulent-android-advertising-sdk-installed-in-over-15-million-devices"
 showToc: true
-TocOpen: true
-draft: false
-hidemeta: false
-comments: false
-description: "By using these SDKs, app developers are often unknowingly placing their users at risk and facilitating advertising fraud."
-canonicalURL: "https://tavares.re/fraudulent-ads-sdk-installed-on-15-million-android-devices/"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
-searchHidden: false
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
-ShowRssButtonInSectionTermList: true
-UseHugoToc: true
-cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+thumbnail:
+  image: "images/research/fraudulent-ads-sdk-installed-on-15-million-android-devices.webp"
+  alt: "Phone applications linked through an embedded chip to advertisements and many devices"
 ---
 
-Published at: https://www.bitsight.com/blog/fraudulent-android-advertising-sdk-installed-in-over-15-million-devices
+Arrkii is an Android advertising SDK associated with abusive tracking, advertising fraud, silent installation, and hidden code. This March 2019 Bitsight investigation describes the team's analysis of applications containing the SDK and observations from sinkholed infrastructure.
 
-![](arrkii-ad.webp)
+The publication reports 15 million distinct devices using 40 million IP addresses during one month. That visibility covered only some SDK versions; the device and IP counts are different measures and should not be interchanged.
 
-# Indicators of Compromise (IoCs)	
+The original article explains the observed behavior and collection limits. The appendix below preserves the indicators published with this research as historical references.
 
-## APK Samples
-```
+[Read the original article at Bitsight](https://www.bitsight.com/blog/fraudulent-android-advertising-sdk-installed-in-over-15-million-devices)
+
+![Arrkii advertising SDK material reproduced from the original investigation](arrkii-ad.webp)
+
+## Historical indicators of compromise
+
+### APK sample hashes
+```text
 018efa966cb098d6a7b54f8a37d4946d4f94d7c70059a048f83aa559e3512557
 0425dbe56eb4aa6b7daeeb3b607de36655d7ef44d3e64e512309c34298309b38
 075fc985f32f742c295b84ea577a4bb79a4a25e7d94a736b6716ec4e49b35a67
@@ -139,8 +125,8 @@ f0980373331ba0d233c4d29d2ca1b11a1b6cf6091b24d50b2efbc278f2ed0e4f
 f1b1c54ca3ea13a36f27f1bf829ac45df4716db03dd77b89efeca4db4fc4f58e
 ```
 
-## APK Package Names
-```
+### APK package names
+```text
 apps.plugin.android.litos
 coco.husky.shell
 collage.photo.camera.patterns.pic.editor
@@ -188,52 +174,52 @@ mail.tools.android
 shkwe.djkw.ddd
 ```
 
-## Related FQDNs
+### Related domains
+```text
+aiadcreative[.]com
+
+icecyber[.]org
+ak[.]icecyber[.]org
+api[.]icecyber[.]org
+download[.]icecyber[.]org
+icon[.]icecyber[.]org
+p[.]icecyber[.]org
+portal[.]icecyber[.]org
+realtime[.]icecyber[.]org
+store[.]icecyber[.]org
+store2[.]icecyber[.]org
+subway[.]icecyber[.]org
+uc[.]icecyber[.]org
+
+bayctrk[.]com
+ams[.]bayctrk[.]com
+auto[.]bayctrk[.]com
+bayctrk[.]com
+d[.]baycyber[.]tech
+j[.]bayctrk[.]com
+sg[.]bayctrk[.]com
+t[.]bayctrk[.]com
+usa2[.]bayctrk[.]com
+
+cyserv[.]top
+api[.]cyserv[.]top
+cyserv[.]top
+
+appsflyer[.]tk
+dk[.]appsflyer[.]tk
+parnner[.]appsflyer[.]tk
+portal[.]appsflyer[.]tk
+sdk[.]appsflyer[.]tk
+
+arrkiisdk[.]com
+subway[.]arrkiisdk[.]com
+
+cdn[.]arrkii[.]tech
+
+click[.]aiadcreative[.]com
+
+download[.]cdncyber[.]xyz
+
+download[.]unitcdn[.]info
 ```
-aiadcreative.com
-
-icecyber.org
-ak.icecyber.org
-api.icecyber.org
-download.icecyber.org
-icon.icecyber.org
-p.icecyber.org
-portal.icecyber.org
-realtime.icecyber.org
-store.icecyber.org
-store2.icecyber.org
-subway.icecyber.org
-uc.icecyber.org
-
-bayctrk.com
-ams.bayctrk.com
-auto.bayctrk.com
-bayctrk.com
-d.baycyber.tech
-j.bayctrk.com
-sg.bayctrk.com
-t.bayctrk.com
-usa2.bayctrk.com
-
-cyserv.top
-api.cyserv.top
-cyserv.top
-
-appsflyer.tk
-dk.appsflyer.tk
-parnner.appsflyer.tk
-portal.appsflyer.tk
-sdk.appsflyer.tk
-
-arrkiisdk.com
-subway.arrkiisdk.com
-
-cdn.arrkii.tech
-
-click.aiadcreative.com
-
-download.cdncyber.xyz
-
-download.unitcdn.info
-````
 

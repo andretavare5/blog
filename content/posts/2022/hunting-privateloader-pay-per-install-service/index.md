@@ -1,51 +1,37 @@
 ---
 title: "Decrypting and Hunting PrivateLoader"
-date: 2022-06-06T00:00:00+00:00
-# lastmod: 2022-06-06T00:00:00+00:00 # CHECK IF THIS EXSISTS
-# weight: 1
-# aliases: ["/first"]
+date: "2022-06-06T00:00:00+00:00"
+lastmod: "2026-09-15T00:00:00+01:00"
+description: "Building a PrivateLoader string decryptor and YARA rule from a stack-based XOR pattern."
+summary: "Building a PrivateLoader string decryptor and YARA rule from a stack-based XOR pattern."
+format: "Technical walkthrough"
 tags: ["privateloader", "malware", "loader", "reversing", "yara", "windows"]
-# author: "Me"
-# author: ["Me", "You"] # multiple authors
 showToc: true
-TocOpen: true
-draft: false
-hidemeta: false
-comments: false
-description: "The malware's uncommon string decryption technique enable us to write a Yara rule for detection and hunting purposes."
-canonicalURL: "https://tavares.re/tracking-privateloader-malware-distribution-service/"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
-searchHidden: false
 ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
-ShowRssButtonInSectionTermList: true
-UseHugoToc: true
-cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
-aliases: 
+aliases:
   - /blog/2022/06/06/hunting-privateloader-pay-per-install-service/
+thumbnail:
+  image: "images/research/hunting-privateloader-pay-per-install-service.webp"
+  alt: "Two memory stacks combining to unlock hidden data inspected through a magnifying glass"
 ---
 
-PrivateLoader is a loader from a pay-per-install malware distribution service that has been utilized to distribute info stealers, banking trojans, loaders, spambots, rats, miners and ransomware on Windows machines. [First seen in early 2021](https://intel471.com/blog/privateloader-malware), being hosted on websites that claim to provide cracked software, the customers of the service are able to selectively deliver malware to victims based on location, financial activity, environment, and specific software installed.
+PrivateLoader is a Windows loader used by a pay-per-install malware distribution service. [First observed in early 2021](https://intel471.com/blog/privateloader-malware), it was distributed through websites offering cracked software and delivered payloads including information stealers, banking trojans, other loaders, and ransomware.
 
-Let's have a look at the malware and try to find a way to detect and hunt it.
+This walkthrough records my analysis of a 2022 sample. The goal was to recover its encrypted strings and turn the decryption pattern into a detection rule.
+
+## Key takeaways
+
+- PrivateLoader builds encrypted strings and their XOR keys on the stack before decoding them at runtime.
+- A Capstone-based script recovers strings that help explain the sample's behavior and infrastructure.
+- A YARA rule returned over 1,000 samples in a one-year VirusTotal retrohunt. Manual review found no false positives in the inspected subset; its size was not recorded, so this is not a measured false-positive rate.
 
 ## Searching for strings
 
-Here's a [sample](https://tria.ge/220430-z8fbmaagb9) analyzed by [Zscaler](https://www.zscaler.com/blogs/security-research/peeking-privateloader) on April 2022: 
+Here's a [sample](https://tria.ge/220430-z8fbmaagb9) analyzed by [Zscaler](https://www.zscaler.com/blogs/security-research/peeking-privateloader) in April 2022:
 
 `aa2c0a9e34f9fa4cbf1780d757cc84f32a8bd005142012e91a6888167f80f4d5`
 
-Let's open it on [Ghidra](https://ghidra-sre.org/). Going into the entry point, following the code, looking for interesting functions, I quickly spot the function at `0x406360`. It's calling `LoadLibraryA` but the `lpLibFileName` parameter is built dynamically at runtime using the stack. Its seems that we found a string encryption technique. Both the string and the xor key are loaded into the stack. Looking a bit more through the function, its seems that this is the way most of the strings are loaded:
+Opening the sample in [Ghidra](https://ghidra-sre.org/) and following the code from its entry point led me to the function at `0x406360`. It calls `LoadLibraryA`, but constructs the `lpLibFileName` argument on the stack at runtime. Both the encrypted bytes and the XOR key are loaded onto the stack, then combined to recover the library name. The same pattern appears elsewhere in the function:
 
 ```nasm
 LEA       EAX=>local_50,[ESP + 0x10]
@@ -64,17 +50,19 @@ MOVAPS    xmmword ptr [ESP + local_50[0]],XMM1
 CALL      ESI=>KERNEL32.DLL::LoadLibraryA
 ```
 
-After XOR the encrypted string with the key, we get `kernel32.dll`.
+Applying XOR to the encrypted bytes and the key produces `kernel32.dll`.
 
 ## Decrypting the strings
 
-Now, to faster analyze the malware and better understand its behavior, we should build a string decryptor to help us on our reversing efforts and better document the code. With the help of [Capstone](https://www.capstone-engine.org/) disassembly framework, and some trial and error, here's the script:
+To make the analysis easier, I built a string decryptor using the [Capstone](https://www.capstone-engine.org/) disassembly framework. Some trial and error was needed to turn the observed pattern into the script below.
+
+[Open the string decryptor on GitHub Gist](https://gist.github.com/andretavare5/66ec413cdb4c7c39d35c22d38c7067a8).
 
 {{< gist andretavare5 66ec413cdb4c7c39d35c22d38c7067a8 >}}
 
-After running it against the sample we are analyzing, we get the following strings:
+Running it against the sample produced the following strings. Network indicators are defanged here and belong to this historical sample.
 
-```
+```text
 0x4003ee GetCurrentProcess
 0x400469 CreateThread
 0x4004ba CreateFileA
@@ -84,7 +72,7 @@ After running it against the sample we are analyzing, we get the following strin
 0x400657 SHGetFolderPathA
 0x40083b null
 0x401078 rb
-0x40157c http://212.193.30.45/proxies.txt
+0x40157c hxxp://212[.]193[.]30[.]45/proxies.txt
 0x401795 :1080
 0x401839 \n
 0x401f2d :1080
@@ -93,15 +81,15 @@ After running it against the sample we are analyzing, we get the following strin
 0x4028ac .
 0x402972 .
 0x402a34 .
-0x4032ad http://45.144.225.57/server.txt
+0x4032ad hxxp://45[.]144[.]225[.]57/server.txt
 0x4033c0 HOST:
 0x40346e :
-0x403760 pastebin.com/raw/A7dSG1te
+0x403760 pastebin[.]com/raw/A7dSG1te
 0x403965 HOST:
-0x403b93 http://wfsdragon.ru/api/setStats.php
+0x403b93 hxxp://wfsdragon[.]ru/api/setStats.php
 0x403dcd HOST:
 0x403f84 :
-0x4040ae 2.56.59.42
+0x4040ae 2[.]56[.]59[.]42
 0x404350 /base/api/statistics.php
 0x404439 URL:
 0x4044b6 :
@@ -147,15 +135,18 @@ After running it against the sample we are analyzing, we get the following strin
 0x4099e5 CreateFileA
 0x409a36 WriteFile
 0x409a87 CloseHandle
-``` 
+```
 
-Some of them are network IoCs that can be used for defense and tracking purposes. We can now go back to Ghidra and continue our analysis, now with more context of what might be the malware's capabilities.
+The recovered API names and network indicators give us more context for returning to Ghidra and examining the sample's capabilities. They describe the analyzed build, rather than every PrivateLoader version.
 
 ## Detecting and hunting the malware
 
-This uncommon string decryption technique enable us to write a [Yara](https://github.com/VirusTotal/yara) rule for detection and hunting purposes. To reduce the number of false positives and increase the rule performance, we can add some plaintext unicode strings [used on the C2 communication](https://www.zscaler.com/blogs/security-research/peeking-privateloader) and a few minor conditions. Here's the rule: 
+This string-decryption pattern gives us a basis for a [YARA](https://github.com/VirusTotal/yara) rule. To narrow the matches, the rule also checks plaintext Unicode strings [used in C2 communication](https://www.zscaler.com/blogs/security-research/peeking-privateloader) and a few additional conditions.
+
+[Open the original YARA rule revision on GitHub Gist](https://gist.github.com/andretavare5/9d8eb659946ff509d9987c9be4031bb6/2aba78c871da34dcf3a2c2d5171f593299c0410e).
 
 {{< gist andretavare5 "9d8eb659946ff509d9987c9be4031bb6/2aba78c871da34dcf3a2c2d5171f593299c0410e" >}}
 
-After running this rule on VirusTotal retro hunting, I got over 1k samples on a 1 year timeframe. By manually analyzing some of the matches, I couldn't find any false positives. As a first attempt of hunting and detecting PrivateLoader, this rule seems to yield good results.
+The rule returned over 1,000 samples in a VirusTotal retrohunt spanning one year. I found no false positives among the matches I manually inspected, but did not record the size of that subset. The result was a useful starting point for hunting PrivateLoader, rather than a complete validation of detection coverage or specificity.
 
+The decryptor and rule above preserve the original research artifacts. Their applicability to later builds needs separate validation.
