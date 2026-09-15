@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>privateloader on tavares.re</title>
+    <title>Privateloader on André Tavares</title>
     <link>https://tavares.re/tags/privateloader/</link>
-    <description>Recent content in privateloader on tavares.re</description>
+    <description>Recent content in Privateloader on André Tavares</description>
     <image>
-      <title>tavares.re</title>
-      <url>https://tavares.re/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://tavares.re/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>André Tavares</title>
+      <url>https://tavares.re/images/social-card.png</url>
+      <link>https://tavares.re/images/social-card.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 00:00:00 +0100</lastBuildDate>
     <atom:link href="https://tavares.re/tags/privateloader/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hunting PrivateLoader: The malware behind InstallsKey PPI service</title>
+      <title>Hunting PrivateLoader: The Malware Behind InstallsKey PPI Service</title>
       <link>https://tavares.re/hunting-privateloader-malware-behind-installskey-ppi-service/</link>
       <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://tavares.re/hunting-privateloader-malware-behind-installskey-ppi-service/</guid>
-      <description>This widespread malware had some important updates recently and has been infecting 5000 systems daily.</description>
+      <description>Tracing changes in PrivateLoader protocols and string obfuscation, with YARA and Suricata detection.</description>
     </item>
     <item>
       <title>Tracking PrivateLoader: Malware Distribution Service</title>
       <link>https://tavares.re/tracking-privateloader-malware-distribution-service/</link>
       <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
       <guid>https://tavares.re/tracking-privateloader-malware-distribution-service/</guid>
-      <description>We identified 30 malware families distributed by PrivateLoader.</description>
+      <description>Tracking PrivateLoader delivery chains and identifying 30 malware families in the collected payloads.</description>
     </item>
     <item>
       <title>Decrypting and Hunting PrivateLoader</title>
       <link>https://tavares.re/hunting-privateloader-pay-per-install-service/</link>
       <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://tavares.re/hunting-privateloader-pay-per-install-service/</guid>
-      <description>The malware&amp;#39;s uncommon string decryption technique enable us to write a Yara rule for detection and hunting purposes.</description>
+      <description>Building a PrivateLoader string decryptor and YARA rule from a stack-based XOR pattern.</description>
     </item>
   </channel>
 </rss>

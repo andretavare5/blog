@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>originlogger on tavares.re</title>
+    <title>Originlogger on André Tavares</title>
     <link>https://tavares.re/tags/originlogger/</link>
-    <description>Recent content in originlogger on tavares.re</description>
+    <description>Recent content in Originlogger on André Tavares</description>
     <image>
-      <title>tavares.re</title>
-      <url>https://tavares.re/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://tavares.re/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>André Tavares</title>
+      <url>https://tavares.re/images/social-card.png</url>
+      <link>https://tavares.re/images/social-card.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 00:00:00 +0100</lastBuildDate>
     <atom:link href="https://tavares.re/tags/originlogger/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Insights on AgentTesla and OriginLogger Victims</title>
       <link>https://tavares.re/data-insights-agenttesla-and-originlogger-victims/</link>
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://tavares.re/data-insights-agenttesla-and-originlogger-victims/</guid>
-      <description>AgentTesla remains a prevalent commodity stealer, mainly distributed via email attachments.</description>
+      <description>Configuration and infection-data analysis of AgentTesla and OriginLogger, including their exfiltration methods.</description>
     </item>
   </channel>
 </rss>

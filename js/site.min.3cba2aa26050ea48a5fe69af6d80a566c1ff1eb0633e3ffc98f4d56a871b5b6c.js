@@ -1,0 +1,1 @@
+const printButton=document.getElementById("print-cv");printButton&&printButton.addEventListener("click",()=>window.print());const skipLink=document.querySelector(".skip-link");skipLink&&skipLink.addEventListener("click",()=>{document.getElementById("main").focus({preventScroll:!0})})

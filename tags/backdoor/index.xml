@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>backdoor on tavares.re</title>
+    <title>Backdoor on André Tavares</title>
     <link>https://tavares.re/tags/backdoor/</link>
-    <description>Recent content in backdoor on tavares.re</description>
+    <description>Recent content in Backdoor on André Tavares</description>
     <image>
-      <title>tavares.re</title>
-      <url>https://tavares.re/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://tavares.re/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>André Tavares</title>
+      <url>https://tavares.re/images/social-card.png</url>
+      <link>https://tavares.re/images/social-card.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 00:00:00 +0100</lastBuildDate>
     <atom:link href="https://tavares.re/tags/backdoor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Backdoors Pre-Installed on Cheap Android Devices</title>
       <link>https://tavares.re/suspicious-apps-pre-installed-on-cheap-android-devices/</link>
       <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://tavares.re/suspicious-apps-pre-installed-on-cheap-android-devices/</guid>
-      <description>BitSight’s sinkhole data shows that Brazil is the most affected country, followed by Russia and India.</description>
+      <description>Sinkhole observations of pre-installed Android threats and insecure device-update mechanisms.</description>
     </item>
   </channel>
 </rss>
